@@ -150,23 +150,21 @@
         .hero-pre-title { font-family: var(--font-mono); font-size: 14px; color: var(--text-dim); letter-spacing: 12px; margin-bottom: 20px; opacity: 0; transform: translateY(20px); text-shadow: 0 0 10px rgba(0,0,0,1); border-bottom: 1px solid var(--red-blood); padding-bottom: 10px; }
         .hero-title { 
             font-family: var(--font-display); 
-            font-size: clamp(100px, 22vw, 400px); 
+            font-size: clamp(80px, 20vw, 280px); 
             font-weight: 900; 
-            line-height: 0.85; 
-            letter-spacing: 10px; 
-            margin-bottom: 40px; 
+            line-height: 1;
+            letter-spacing: 4px; 
+            margin-bottom: 30px; 
             color: var(--red-blood); 
             text-shadow: 
-                0 0 20px var(--red-blood), 
-                0 0 60px var(--red-blood),
-                0 0 100px rgba(255,0,60,0.8),
-                0 0 180px rgba(255,0,60,0.6),
-                0 0 280px rgba(255,0,60,0.4),
-                inset 0 0 20px rgba(255,0,60,0.3);
-            opacity: 0; 
-            transform: translateY(50px) scale(0.8); 
+                0 0 15px var(--red-blood), 
+                0 0 35px rgba(255,0,60,0.9),
+                0 0 70px rgba(255,0,60,0.6);
+            opacity: 1;
+            transform: none;
             font-style: normal;
-            animation: heroReveal 1.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+            word-break: break-word;
+            white-space: normal;
         }
         
         @keyframes heroReveal {
@@ -1488,7 +1486,7 @@
         {id:'chat', icon:'🧠', name:'PRIMER CONTACTO', desc:'Habla con el Neural Chat.', xp:15},
         {id:'img', icon:'🎨', name:'FORJADOR', desc:'Genera una imagen en Vision Forge.', xp:20},
         {id:'tarot', icon:'🔮', name:'EL ORÁCULO', desc:'Consulta el Tarot Oracle.', xp:25},
-        {id:'dream', icon:'🌙', name:'ONIRONAUTA', desc:'Decodifica un sueño.', xp:25},
+        {id:'dream', icon:'��', name:'ONIRONAUTA', desc:'Decodifica un sueño.', xp:25},
         {id:'archetype', icon:'🧬', name:'CONÓCETE', desc:'Descubre tu arquetipo.', xp:25},
         {id:'song', icon:'✍️', name:'CO-AUTOR', desc:'Compón una letra con el núcleo.', xp:25},
         {id:'darvo', icon:'🛡️', name:'ESCUDO MENTAL', desc:'Ejecuta el DARVO Detector.', xp:25},
@@ -1798,7 +1796,7 @@
     <!-- GODMODE ENGINE // ENTREGAS 8 + 14 + 15 UNIFICADAS                -->
     <!-- Cinematic Director · Aether Terminal · Dream Mode · Audio-React  -->
     <!-- Oracle Memory · Final Plane                                       -->
-    <!-- ═══════════════════════════════════════════════════════════════ -->
+    <!-- ═══════════════════════════���═══════════════════════════════════ -->
     <style>
         #aetherTerm{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%) scale(.95);width:min(720px,92vw);max-height:70vh;background:rgba(0,0,0,.92);backdrop-filter:blur(20px);border:1px solid var(--red-blood);z-index:9800;display:none;flex-direction:column;font-family:var(--font-mono);box-shadow:0 0 80px rgba(255,0,60,.4),inset 0 0 30px rgba(0,0,0,.9);clip-path:polygon(14px 0,100% 0,100% calc(100% - 14px),calc(100% - 14px) 100%,0 100%,0 14px);opacity:0;transition:opacity .3s,transform .3s}
         #aetherTerm.on{display:flex;opacity:1;transform:translate(-50%,-50%) scale(1)}
@@ -2210,7 +2208,7 @@
             
             universalQuestions() {
                 const questions = [
-                    '¿Qué te impide ser completamente honesto?',
+                    '¿Qu�� te impide ser completamente honesto?',
                     '¿Cuál es tu mayor miedo?',
                     '¿Qué sacrificarías por tu sueño?',
                     '¿Quién eres sin tu rol social?',
