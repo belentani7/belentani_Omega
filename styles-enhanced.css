@@ -1,0 +1,261 @@
+/* OMEGA CORE - ENHANCED VISUAL EFFECTS */
+
+:root {
+    --particle-size: 60px;
+    --pulse-duration: 3s;
+    --glitch-intensity: 0.8;
+}
+
+/* ========== ADVANCED PARTICLE SYSTEM ========== */
+@keyframes particleFloat {
+    0%, 100% {
+        transform: translateY(0) translateX(0) rotate(0deg) scale(1);
+        opacity: 0.1;
+    }
+    25% {
+        transform: translateY(-150px) translateX(80px) rotate(90deg) scale(0.8);
+        opacity: 0.3;
+    }
+    50% {
+        transform: translateY(-250px) translateX(-50px) rotate(180deg) scale(0.6);
+        opacity: 0.2;
+    }
+    75% {
+        transform: translateY(-150px) translateX(-100px) rotate(270deg) scale(0.7);
+        opacity: 0.15;
+    }
+}
+
+@keyframes pulseRadiant {
+    0%, 100% {
+        box-shadow: 0 0 0 0 rgba(255, 0, 60, 0.7),
+                    0 0 0 10px rgba(255, 0, 60, 0.4),
+                    0 0 0 20px rgba(255, 0, 60, 0.1);
+    }
+    50% {
+        box-shadow: 0 0 0 10px rgba(255, 0, 60, 0.4),
+                    0 0 0 30px rgba(255, 0, 60, 0.2),
+                    0 0 0 50px rgba(255, 0, 60, 0);
+    }
+}
+
+/* ========== HOLOGRAPHIC TEXT EFFECTS ========== */
+@keyframes holoFlicker {
+    0%, 100% {
+        text-shadow: 0 0 10px rgba(255, 0, 60, 0.8),
+                     0 0 20px rgba(0, 255, 255, 0.3),
+                     0 0 30px rgba(255, 215, 0, 0.2);
+    }
+    50% {
+        text-shadow: 0 0 5px rgba(255, 0, 60, 0.4),
+                     0 0 10px rgba(0, 255, 255, 0.2),
+                     0 0 15px rgba(255, 215, 0, 0.1),
+                     -2px 2px 0 rgba(255, 0, 60, 0.3),
+                     2px -2px 0 rgba(0, 255, 255, 0.2);
+    }
+}
+
+/* ========== DISTORTION WAVES ========== */
+@keyframes distortionWave {
+    0% {
+        clip-path: polygon(
+            0% 0%, 100% 0%,
+            100% 5%, 95% 8%, 100% 12%, 98% 15%, 100% 20%,
+            100% 100%, 0% 100%,
+            0% 80%, 5% 82%, 0% 88%, 3% 92%, 0% 95%
+        );
+    }
+    100% {
+        clip-path: polygon(
+            0% 0%, 100% 0%,
+            100% 2%, 99% 4%, 100% 8%, 97% 12%, 100% 18%,
+            100% 100%, 0% 100%,
+            0% 85%, 2% 88%, 0% 92%, 4% 96%, 0% 100%
+        );
+    }
+}
+
+/* ========== MORPHING BORDERS ========== */
+@keyframes borderMorph {
+    0%, 100% {
+        border-radius: 0% 0% 0% 0%;
+    }
+    25% {
+        border-radius: 40% 0% 0% 60%;
+    }
+    50% {
+        border-radius: 40% 40% 60% 0%;
+    }
+    75% {
+        border-radius: 0% 40% 40% 60%;
+    }
+}
+
+/* ========== CHROMATIC ABERRATION ========== */
+@keyframes chromaticShift {
+    0%, 100% {
+        text-shadow: -1px 0 rgba(255, 0, 60, 0.5),
+                     1px 0 rgba(0, 255, 255, 0.5);
+    }
+    50% {
+        text-shadow: -2px 0 rgba(255, 0, 60, 0.8),
+                     2px 0 rgba(0, 255, 255, 0.8);
+    }
+}
+
+/* ========== QUANTUM ENTANGLEMENT ========== */
+@keyframes quantumEntangle {
+    0% {
+        transform: scale(1) rotateZ(0deg);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.2) rotateZ(45deg) skewX(10deg);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1) rotateZ(360deg);
+        opacity: 1;
+    }
+}
+
+/* ========== SECTION REVEAL ========== */
+@keyframes sectionFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(100px) rotateX(20deg) scaleY(0.8);
+        filter: blur(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) rotateX(0deg) scaleY(1);
+        filter: blur(0);
+    }
+}
+
+/* ========== TOOL CARD ANIMATIONS ========== */
+@keyframes cardGlimmer {
+    0%, 100% {
+        background: linear-gradient(135deg, rgba(10,0,0,0.8), rgba(20,0,5,0.4));
+    }
+    50% {
+        background: linear-gradient(135deg, rgba(20,0,0,0.9), rgba(30,0,10,0.5));
+        box-shadow: inset 0 0 20px rgba(255, 0, 60, 0.1), 
+                    0 0 30px rgba(255, 0, 60, 0.2);
+    }
+}
+
+@keyframes cardRevealSequence {
+    0% {
+        opacity: 0;
+        transform: translateY(40px) rotateX(15deg) scale(0.8);
+        filter: blur(5px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) rotateX(0deg) scale(1);
+        filter: blur(0);
+    }
+}
+
+.tool-card {
+    animation: cardRevealSequence 0.6s ease-out forwards;
+}
+
+.tool-card:nth-child(1) { animation-delay: 0.1s; }
+.tool-card:nth-child(2) { animation-delay: 0.2s; }
+.tool-card:nth-child(3) { animation-delay: 0.3s; }
+.tool-card:nth-child(4) { animation-delay: 0.4s; }
+.tool-card:nth-child(5) { animation-delay: 0.5s; }
+.tool-card:nth-child(n+6) { animation-delay: 0.6s; }
+
+/* ========== INTERACTIVE HOVER STATE ========== */
+.tool-card:hover {
+    animation: cardGlimmer 2s ease-in-out infinite;
+}
+
+/* ========== TEXT EFFECTS ========== */
+.glitch-intensive {
+    animation: chromaticShift 0.5s infinite;
+}
+
+.holo-flicker {
+    animation: holoFlicker 3s ease-in-out infinite;
+}
+
+.quantum-pulse {
+    animation: quantumEntangle 4s ease-in-out infinite;
+}
+
+/* ========== BACKGROUND EFFECTS ========== */
+@keyframes plasmaFlow {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 400% 400%;
+    }
+}
+
+.plasma-background {
+    background: linear-gradient(-45deg, 
+                                rgba(255, 0, 60, 0.1), 
+                                rgba(0, 255, 255, 0.05), 
+                                rgba(255, 215, 0, 0.05), 
+                                rgba(176, 38, 255, 0.1));
+    background-size: 400% 400%;
+    animation: plasmaFlow 15s ease infinite;
+}
+
+/* ========== BUTTON EFFECTS ========== */
+.btn-quantum {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-quantum::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+/* ========== SCROLL TRIGGER EFFECTS ========== */
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.scroll-reveal.visible {
+    animation: sectionFadeIn 0.8s ease-out forwards;
+}
+
+/* ========== RESPONSIVE ADJUSTMENTS ========== */
+@media (max-width: 768px) {
+    @keyframes particleFloat {
+        0%, 100% {
+            transform: translateY(0) translateX(0) rotate(0deg) scale(0.5);
+            opacity: 0.05;
+        }
+        50% {
+            transform: translateY(-100px) translateX(40px) rotate(180deg) scale(0.3);
+            opacity: 0.1;
+        }
+    }
+}
+
+/* ========== Z-INDEX HIERARCHY ========== */
+.particle-field { z-index: 3; }
+.plasma-layer { z-index: 3.5; }
+.glitch-overlay { z-index: 9500; }
+.quantum-distortion { z-index: 4; }
