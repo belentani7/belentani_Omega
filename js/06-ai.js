@@ -57,7 +57,7 @@ var naveContextual = [
   { patterns: ['therapist'], response: '> "Therapist" — electrónica industrial con letras que diseccionan la psique humana. La música como mecanismo de supervivencia.' },
   { patterns: ['apaga a luz', 'apaga'], response: '> "Apaga a Luz" — melodías llenas de soul con estructuras rítmicas cautivadoras. Disponible en Spotify.' },
   { patterns: ['lento'], response: '> "Lento" — R&B alternativo. La vulnerabilidad radical como mecanismo de supervivencia. Disponible en YouTube.' },
-  { patterns: ['i wrote a song'], response: '> "I Wrote a Song" — la confesión directa. Producida en las sesiones DUCK PROD. SoundCloud.' },
+  { patterns: ['i wrote a song'], response: '> "I Wrote a Song" — la confesión directa. Producida en las sesiones JUDAS STUDIO. SoundCloud.' },
   { patterns: ['empezar', 'start', 'comenzar', 'donde'], response: '> Comienza en el PORTAL: activa las 5 gemas arquetipas para sincronizar el enjambre. La ascensión requiere las cinco firmas.' },
   { patterns: ['experiencia', 'experience', 'judas experience'], response: '> JUDAS EXPERIENCE es un Creative Operating System: música, narrativa transmedia, inteligencia artificial y diseño cinematográfico. No se consume. Se habita.' },
   { patterns: ['idioma', 'language', 'english', 'portugues', 'catala', 'frances'], response: '> El sistema opera en español como lengua matriz. La señal se expande a EN, PT y CA en las próximas iteraciones del protocolo.' },
@@ -558,3 +558,149 @@ document.addEventListener('DOMContentLoaded', function() {
   initVoiceInput();
   loadChatHistory();
 });
+
+// ────────────────────────────────────────────────────────────────
+// 16. CORE_AI 300+ LOCAL TOOLS REGISTRY & EXECUTOR (SIN API)
+// ────────────────────────────────────────────────────────────────
+(function(){
+  var categories = [
+    'Frecuencias & Sonido', 'Psicología & Sombra', 'Lore Belentani & Judas',
+    'Oráculo & Sueños', 'Música & Letras', 'Hacker & Matrix'
+  ];
+
+  var toolsList = [];
+
+  // 1-50: FRECUENCIAS & SONIDO (Solfeggio, Tone.js, Binaural)
+  var freqs = [432, 528, 639, 741, 852, 963, 174, 285, 396, 417];
+  var freqNames = ['Armonía Coherente', 'Reparación ADN', 'Conexión Emocional', 'Expresión Pura', 'Intuición Superior', 'Despertar Cuántico', 'Anestesia Natural', 'Regeneración Celular', 'Liberación de Culpabilidad', 'Deshacer Trauma'];
+  for(var i=0; i<50; i++){
+    var f = freqs[i % freqs.length] + Math.floor(i/freqs.length)*10;
+    var fn = freqNames[i % freqNames.length] + (i >= freqs.length ? ' Nivel ' + (Math.floor(i/freqs.length)+1) : '');
+    toolsList.push({
+      id: 'tool_' + (i+1),
+      num: i+1,
+      cat: 'Frecuencias & Sonido',
+      title: 'Resonancia ' + f + 'Hz — ' + fn,
+      desc: 'Genera una onda sinusodal purificada en ' + f + 'Hz conmodulación binaural.',
+      run: (function(freqVal, fName){
+        return function(){
+          if(typeof playSolfeggio === 'function') playSolfeggio(freqVal);
+          return '> FRECUENCIA ' + freqVal + 'Hz ACTIVADA: ' + fName + ' // Oscilador local activo.';
+        };
+      })(f, fn)
+    });
+  }
+
+  // 51-100: PSICOLOGÍA & SOMBRA
+  var psyTopics = [
+    'Detector DARVO', 'Defensa del Observador', 'Transmutación del Trauma', 'Escudo Antinarcicismo', 'Matriz de Estilos de Apego',
+    'Escaneo de Proyección de Sombra', 'Desensibilización de Disociación', 'Análisis de Triángulo Dramático', 'Protocolo de Resiliencia Radical', 'Diferenciación del Yo',
+    'Verificación de Coherencia Emocional', 'Extracción de Ganancia Secundaria', 'Límites de Acero Inoxidable', 'Desactivación de Gaslighting', 'Anclaje Somático 1.94m',
+    'Desarmador de Agresión Pasiva', 'Despliegue del Ángel Interior', 'Integración del Guerrero Coherente', 'Purga de Culpa Transgeneracional', 'Foco de Agencia Intacta'
+  ];
+  for(var i=50; i<100; i++){
+    var title = psyTopics[(i-50) % psyTopics.length] + (i>=70 ? ' V2' : '');
+    toolsList.push({
+      id: 'tool_' + (i+1),
+      num: i+1,
+      cat: 'Psicología & Sombra',
+      title: title,
+      desc: 'Análisis psico-arquetípico sin juicios sobre el patrón de sombra ' + title + '.',
+      run: (function(tName){
+        return function(inputVal){
+          var query = inputVal || 'estado actual';
+          return '> [PSICOLOGÍA & SOMBRA // ' + tName.toUpperCase() + ']\n> INPUT: "' + query + '"\n> DIAGNÓSTICO: Patron identificado. La herida no define el núcleo; la transmutación la convierte en arquitectura.\n> ACCIÓN: Registra sin reaccionar. El observador mantiene la agencia intacta.';
+        };
+      })(title)
+    });
+  }
+
+  // 101-150: LORE BELENTANI & JUDAS
+  var loreTopics = [
+    'Capítulo 01: El Entre', 'Capítulo 02: La Deuda', 'Capítulo 03: El Robo de la Llave', 'Capítulo 04: El Canto Final', 'Capítulo 05: La Mentira Compartida',
+    'Firma 1/5: PEDRO (La Roca)', 'Firma 2/5: MARCOS (El Cronista)', 'Firma 3/5: SANTOS (La Antena)', 'Firma 4/5: BELENTANI (El Artefacto)', 'Firma 5/5: THE HUMAN (La Interfaz)',
+    'La Dimensión ZION', 'El Efecto Belentani', 'La Llave Dorada', 'El Enjambre Neural', 'El Beso de Judas'
+  ];
+  for(var i=100; i<150; i++){
+    var title = loreTopics[(i-100) % loreTopics.length] + (i>=115 ? ' ARCHIVE #' + (i-99) : '');
+    toolsList.push({
+      id: 'tool_' + (i+1),
+      num: i+1,
+      cat: 'Lore Belentani & Judas',
+      title: title,
+      desc: 'Extracción directa de los registros akáshicos del archivo neural de Judas Era.',
+      run: (function(tName){
+        return function(){
+          return '> [REGISTRO NEURAL // ' + tName.toUpperCase() + ']\n> "' + tName + ' en el ecosistema Belentani no representa la derrota; representa el nacimiento del artista absoluto."';
+        };
+      })(title)
+    });
+  }
+
+  // 151-200: ORÁCULO & SUEÑOS
+  var oracleCards = ['El Mago del Neón', 'La Sacerdotisa de Cristal', 'La Emperatriz del Desierto', 'El Emperador del Void', 'El Sumo Sacerdote 432Hz', 'Los Amantes de Zion', 'El Carro de la Nave', 'La Fuerza del Artefacto', 'El Ermitaño del Estudio', 'La Rueda de la Transmutación'];
+  for(var i=150; i<200; i++){
+    var title = 'Oráculo: ' + oracleCards[(i-150) % oracleCards.length] + (i>=160 ? ' #' + (i-149) : '');
+    toolsList.push({
+      id: 'tool_' + (i+1),
+      num: i+1,
+      cat: 'Oráculo & Sueños',
+      title: title,
+      desc: 'Consulta la carta del oráculo digital y revela el presagio del día.',
+      run: (function(tName){
+        return function(){
+          return '> [ORÁCULO DIGTAL // ' + tName.toUpperCase() + ']\n> CARTA REVELADA: ' + tName + '\n> SIGNIFICADO: "La respuesta que buscas ya está codificada en tu propia voz."';
+        };
+      })(title)
+    });
+  }
+
+  // 201-250: MÚSICA & LETRAS
+  var songStyles = ['Dark Pop Visceral', 'R&B Industrial', 'Soul Electrónico', 'Ambient 432Hz', 'Trap Melancólico', 'Synthwave Sangre', 'Gothic R&B', 'Cyber Acoustic'];
+  for(var i=200; i<250; i++){
+    var title = 'Estilo ' + songStyles[(i-200) % songStyles.length] + ' #' + (i-199);
+    toolsList.push({
+      id: 'tool_' + (i+1),
+      num: i+1,
+      cat: 'Música & Letras',
+      title: title,
+      desc: 'Sintetizador de estructuras líricas y progresiones armónicas estilo Belentani.',
+      run: (function(tName){
+        return function(topicVal){
+          var topic = topicVal || 'la victoria amarga';
+          return '> [LYRIC FORGE // ' + tName.toUpperCase() + ']\n> TEMA: ' + topic + '\n\n[VERSE]\nLuz de neón roja sobre el cristal roto\nLlevo mil nombres pero ninguno me hace falta...\n\n[CHORUS]\nRecuperaremos la llave / O cambiaremos la cerradura\nMi voz es el código / Mi dolor la cura.';
+        };
+      })(title)
+    });
+  }
+
+  // 251-300+: HACKER & MATRIX
+  var hackerTools = [
+    'Calculadora de Refracción de Diamante', 'Generador de Shaders 21st.dev', 'Inyector de Glitch CSS', 'Limpiador de Cache Neural',
+    'Optimizador de Prompts 8K', 'Simulador de Lluvia Matrix Blood', 'Convertidor a Código Hexadecimal', 'Verificador de PWA Offline',
+    'Audit de Seguridad MITM', 'Exportador de Registro Neural .TXT'
+  ];
+  for(var i=250; i<300; i++){
+    var title = hackerTools[(i-250) % hackerTools.length] + ' #' + (i-249);
+    toolsList.push({
+      id: 'tool_' + (i+1),
+      num: i+1,
+      cat: 'Hacker & Matrix',
+      title: title,
+      desc: 'Herramienta técnica de terminal hacker para personalizar la experiencia visual.',
+      run: (function(tName){
+        return function(){
+          return '> [HACKER TERMINAL // ' + tName.toUpperCase() + ']\n> STATUS: EJECUTADO CON ÉXITO\n> PARAMETROS RECONFIGURADOS EN EL CORE_AI.';
+        };
+      })(title)
+    });
+  }
+
+  window.CORE_AI_300_REGISTRY = toolsList;
+
+  window.executeAITool300 = function(toolId, inputVal){
+    var tool = toolsList.filter(function(t){ return t.id === toolId || t.num === parseInt(toolId); })[0];
+    if(!tool) return '> TOOL NO ENCONTRADA. ESPECIFICA UN ID DEL 1 AL 300.';
+    return tool.run(inputVal);
+  };
+})();

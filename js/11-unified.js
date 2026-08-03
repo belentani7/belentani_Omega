@@ -92,11 +92,11 @@
   var bubble=document.getElementById('agentBubble');
   if(!face)return;
   var messages=[
-    '> El enjambre esta activo. Preguntame algo.',
+    '> El enjambre está activo. Explora más de 300 herramientas IA.',
     '> Activa las 5 gemas para sincronizar el portal.',
-    '> Escribe "thiago" en el terminal... si te atreves.',
-    '> La frecuencia 432Hz te esta esperando.',
-    '> CORE_AI: el nucleo vigila desde las sombras.'
+    '> La frecuencia 432Hz resuena en la estructura viva.',
+    '> "La voz es la llave. La traición es el input."',
+    '> CORE_AI: el núcleo vigila desde las sombras.'
   ];
   var shown=false;
   function speak(txt){
@@ -122,44 +122,117 @@
 })();
 
 // ────────────────────────────────────────────────────────────────
-// 5. COLLAPSE SEQUENCE (entity_t / thiago)
+// 5. MAN-IN-THE-MIDDLE (MITM) ATTACK PERFORMANCE — ENTITY_T
 // ────────────────────────────────────────────────────────────────
 function triggerCollapse(){
-  document.body.style.animation='collapseShake 0.5s ease-in-out';
+  if(window.__mitmRunning) return;
+  window.__mitmRunning = true;
+  
+  // Strobe Shake & Screen Glitch
+  document.body.style.animation='collapseShake 0.08s infinite ease-in-out';
+
+  // Screen overlay with red glitch strobe & MITM breach banner
   var ov=document.createElement('div');
-  ov.style.cssText='position:fixed;inset:0;z-index:9100;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(255,0,0,0.2),rgba(255,0,0,0.2) 2px,transparent 2px,transparent 4px);mix-blend-mode:exclusion;animation:collapseShake 0.4s ease infinite;';
+  ov.id = 'mitm-overlay';
+  ov.style.cssText='position:fixed;inset:0;z-index:99999;pointer-events:all;background:rgba(18,0,4,0.94);display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:var(--fm);color:#ff003c;text-align:center;padding:20px;backdrop-filter:blur(15px);overflow:hidden;box-shadow:inset 0 0 100px #ff003c;';
+  
+  ov.innerHTML = [
+    '<div style="font-size:clamp(18px,4vw,36px);letter-spacing:6px;font-family:var(--fd);margin-bottom:15px;color:#fff;text-shadow:0 0 20px #ff003c;animation:neonFlicker 0.2s infinite">⚠ ALERTA MÁXIMA: BRECHA DE SEGURIDAD ⚠</div>',
+    '<div style="font-size:clamp(14px,2.5vw,22px);letter-spacing:4px;color:#ff1744;margin-bottom:20px;font-family:var(--fd)">[ MAN-IN-THE-MIDDLE (MITM) ATTACK IN PROGRESS ]</div>',
+    '<div style="font-size:12px;color:#00ff41;margin-bottom:25px;max-width:650px;line-height:1.8;background:rgba(0,0,0,0.8);padding:15px;border:1px solid #ff003c;box-shadow:0 0 25px rgba(255,0,60,0.4)">',
+      '> ENTIDAD PROHIBIDA DETECTADA EN EL CANAL QUANTUM: <strong>[ENTITY_T]</strong><br>',
+      '> INTERCEPTANDO PAQUETES NEURALES...<br>',
+      '> MEMORIA Y ESTRUCTURA DEL SITIO EN DESINTEGRACIÓN...<br>',
+      '> ACTIVANDO AISLAMIENTO DE EMERGENCIA Y PURGA MÁXIMA...',
+    '</div>',
+    '<div style="font-family:var(--fd);font-size:28px;color:#ffd700;margin-bottom:15px" id="mitmCountdown">REINICIANDO NÚCLEO EN 3...</div>',
+    '<div style="width:300px;height:4px;background:rgba(255,0,60,0.2);border-radius:2px;overflow:hidden"><div id="mitmBar" style="width:100%;height:100%;background:#ff003c;transition:width 3s linear"></div></div>'
+  ].join('');
+
   document.body.appendChild(ov);
+
+  // Audio Siren Alarm (Tone.js)
+  try{
+    if(window.Tone){
+      Tone.start();
+      var synth = new Tone.Synth({oscillator:{type:'sawtooth'}}).toDestination();
+      synth.volume.value = -12;
+      var now = Tone.now();
+      synth.triggerAttackRelease('A4', '0.15', now);
+      synth.triggerAttackRelease('E5', '0.15', now + 0.2);
+      synth.triggerAttackRelease('A4', '0.15', now + 0.4);
+      synth.triggerAttackRelease('F5', '0.2', now + 0.6);
+      
+      var noise = new Tone.Noise('pink').toDestination();
+      noise.volume.value = -18;
+      noise.start();
+      setTimeout(function(){ noise.stop(); noise.dispose(); }, 3000);
+    }
+  }catch(e){}
+
+  // Chat notification
   var msgs=document.getElementById('chMsgs');
   if(msgs){
     var d=document.createElement('div');
     d.className='msg sys';
-    d.style.color='#f00';
-    d.innerHTML='&#9888; ENTITY_T DETECTED<br>INITIATING SYSTEM COLLAPSE...<br>MEMORY PURGE: 87%<br>FIREWALL BREACH — CONTAINED';
+    d.style.color='#ff003c';
+    d.innerHTML='&#9888; MITM BREACH DETECTED // ENTITY_T INTERCEPTED // RECOVERING INTEGRITY...';
     msgs.appendChild(d);
     msgs.scrollTop=msgs.scrollHeight;
   }
-  try{
-    if(window.Tone){
-      Tone.start();
-      var n=new Tone.Noise('pink').toDestination();
-      n.volume.value=-20;
-      n.start();
-      setTimeout(function(){n.stop()},1200);
+
+  // Countdown & Restoration
+  var bar = document.getElementById('mitmBar');
+  if(bar) setTimeout(function(){ bar.style.width = '0%'; }, 50);
+
+  var count = 3;
+  var cdIv = setInterval(function(){
+    count--;
+    var cdEl = document.getElementById('mitmCountdown');
+    if(cdEl && count > 0) cdEl.textContent = 'REINICIANDO NÚCLEO EN ' + count + '...';
+    if(count <= 0){
+      clearInterval(cdIv);
+      if(ov.parentNode) ov.parentNode.removeChild(ov);
+      document.body.style.animation = '';
+      window.__mitmRunning = false;
+
+      if(msgs){
+        var d2=document.createElement('div');
+        d2.className='msg sys';
+        d2.style.color='#00ff41';
+        d2.innerHTML='&#10004; MITM ATTACK NEUTRALIZED. NÚCLEO RESTAURADO AL 100% OPERACIONAL.';
+        msgs.appendChild(d2);
+        msgs.scrollTop=msgs.scrollHeight;
+      }
     }
-  }catch(e){}
-  setTimeout(function(){
-    document.body.removeChild(ov);
-    document.body.style.animation='';
-    if(msgs){
-      var d2=document.createElement('div');
-      d2.className='msg sys';
-      d2.innerHTML='&#9888; PALABRA PROHIBIDA DETECTADA: ENTITY_T<br>COLAPSO CONTROLADO. SISTEMA RESTAURADO.<br>NODE: JUDAS-CORE-07 // INTEGRIDAD: 100%';
-      msgs.appendChild(d2);
-      msgs.scrollTop=msgs.scrollHeight;
-    }
-  },3400);
+  }, 1000);
 }
 window.triggerCollapse=triggerCollapse;
+
+// Global input listener watching for "thiago" typed anywhere
+(function(){
+  var buffer = '';
+  document.addEventListener('keydown', function(e){
+    if(e.key && e.key.length === 1){
+      buffer += e.key.toLowerCase();
+      if(buffer.length > 20) buffer = buffer.slice(-20);
+      if(buffer.indexOf('thiago') !== -1){
+        buffer = '';
+        triggerCollapse();
+      }
+    }
+  });
+
+  // Attach input listener to all inputs
+  document.addEventListener('input', function(e){
+    if(e.target && e.target.value){
+      if(e.target.value.toLowerCase().indexOf('thiago') !== -1){
+        e.target.value = e.target.value.replace(/thiago/gi, '***');
+        triggerCollapse();
+      }
+    }
+  });
+})();
 
 // ────────────────────────────────────────────────────────────────
 // 6. TOOLS IA EXTRA

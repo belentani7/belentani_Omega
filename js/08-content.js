@@ -44,7 +44,7 @@ function observeRV(){
     'Zion Dimension':'Zion','Zion Interceptor':'Zion',
     'Cyber Gaze':'AI','Serpent Pact':'AI','Sincro 1.0':'AI',
     'Virtual Dimension 042':'AI','Biometric Integration':'AI',
-    'Useless Drone Analysis':'AI','Duck Prod Override':'AI'
+    'Useless Drone Analysis':'AI','Judas Studio Override':'AI'
   };
   var galTabs=document.getElementById('galTabs');
   var gFilter='ALL';

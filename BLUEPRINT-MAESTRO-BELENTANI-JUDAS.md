@@ -901,7 +901,7 @@ La primera versión pública está preparada cuando:
 2. Qué significa JUDAS oficialmente y qué interpretaciones se dejan abiertas.
 3. Uso de referencias religiosas, símbolos y nombres.
 4. Personajes secundarios y cualquier relación entre ellos.
-5. Créditos de Duck Prod. u otros colaboradores.
+5. Créditos de Judas Studio u otros colaboradores.
 6. Imagen principal, vestuario y tratamiento de rostro/cuerpo.
 7. Letras, música, audio y previews permitidos.
 8. Política de imágenes generadas por IA y face swap.
