@@ -1,0 +1,88 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrap": "on"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/__pycache__": true
+  },
+  "files.watcherExclude": {
+    "**/.git/**": true,
+    "**/node_modules/**": true,
+    "**/assets/media/**": true,
+    "**/*.mp4": true
+  },
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/*.min.css": true,
+    "**/*.map": true,
+    "**/assets/media": true
+  },
+  "html.validate.scripts": true,
+  "html.validate.styles": true,
+  "css.validate": true,
+  "javascript.validate.enable": true,
+  "javascript.suggest.autoImports": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.linkedEditing": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.renderWhitespace": "boundary",
+  "editor.rulers": [100, 120],
+  "workbench.editor.enablePreview": false,
+  "explorer.confirmDelete": true,
+  "explorer.confirmDragAndDrop": true,
+  "git.autofetch": false,
+  "git.confirmSync": true,
+  "git.enableSmartCommit": false,
+  "liveServer.settings.root": "/",
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.NoBrowser": false,
+  "roo-cline.debug": false,
+  "roo-cline.allowedCommands": [
+    "git status",
+    "git diff",
+    "git log",
+    "git show",
+    "git branch",
+    "git grep",
+    "git ls-files",
+    "dir",
+    "type",
+    "where",
+    "node --version",
+    "npm --version",
+    "npm run",
+    "npx prettier --check",
+    "python --version",
+    "python -m http.server"
+  ],
+  "roo-cline.deniedCommands": [
+    "git reset --hard",
+    "git clean",
+    "git push --force",
+    "rm",
+    "rmdir",
+    "del",
+    "format",
+    "shutdown"
+  ]
+}

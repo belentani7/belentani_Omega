@@ -10,14 +10,14 @@
   var histIdx=-1;
 
   // Known commands for tab completion
-  var knownCmds=['help','clear','sysinfo','neofetch','matrix','export','color','rock','chronicle','antenna','artifact','interface','status','reset','omega','belentani free','432','528','639','741','852'];
+  var knownCmds=['help','clear','sysinfo','neofetch','matrix','logexport','color','rock','chronicle','antenna','artifact','interface','status','reset','omega','belentani free','432','528','639','741','852'];
 
   // Colored output: color map per command type
   var cmdColors={
     rock:'#ff6b6b',chronicle:'#ffd93d',antenna:'#6bcb77',artifact:'#4d96ff',interface:'#ff6ec7',
     status:'#ffd93d',omega:'#c9b1ff','belentani free':'#00ffcc',
     '432':'#ff6b6b','528':'#6bcb77','639':'#ffd93d','741':'#ff6ec7','852':'#4d96ff',
-    neofetch:'#00ffcc',sysinfo:'#4d96ff',matrix:'#c9b1ff',export:'#ffd93d',color:'#ff6ec7',
+    neofetch:'#00ffcc',sysinfo:'#4d96ff',matrix:'#c9b1ff',logexport:'#ffd93d',color:'#ff6ec7',
     help:'#a0a0a0',clear:'#a0a0a0',reset:'#ff6b6b'
   };
   var defaultColor='var(--blood)';
@@ -165,13 +165,13 @@
       appendLine('COMANDOS: rock|chronicle|antenna|artifact|interface',null,color);
       appendLine('432|528|639|741|852 · omega · belentani free',null,color);
       appendLine('status · reset · clear · sysinfo · neofetch',null,color);
-      appendLine('matrix · export · color [hex]',null,color);
+      appendLine('matrix · logexport · color [hex]',null,color);
     }
     else if(cmd==='clear'){smoothClear()}
     else if(cmd==='sysinfo'){sysinfo()}
     else if(cmd==='neofetch'){neofetch()}
     else if(cmd==='matrix'){toggleMatrix()}
-    else if(cmd==='export'){exportLog()}
+    else if(cmd==='logexport'){exportLog()}
     else if(cmd==='color'){
       if(arg&&/^#?[0-9a-fA-F]{3,8}$/.test(arg)){
         var hex=arg.charAt(0)==='#'?arg:'#'+arg;

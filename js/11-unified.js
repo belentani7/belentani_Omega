@@ -91,6 +91,7 @@
   var face=document.getElementById('agentFace');
   var bubble=document.getElementById('agentBubble');
   if(!face)return;
+  var reduced = !!window.OMEGA_REDUCED_MOTION || (navigator.hardwareConcurrency && navigator.hardwareConcurrency <= 4);
   var messages=[
     '> El enjambre está activo. Explora más de 300 herramientas IA.',
     '> Activa las 5 gemas para sincronizar el portal.',
@@ -116,9 +117,11 @@
   face.addEventListener('keydown',function(e){
     if(e.key==='Enter'||e.key===' '){e.preventDefault();face.click()}
   });
-  setInterval(function(){
-    if(!document.hidden&&Math.random()<0.35)speak(messages[Math.floor(Math.random()*messages.length)]);
-  },22000);
+  if(!reduced){
+    setInterval(function(){
+      if(!document.hidden&&Math.random()<0.35)speak(messages[Math.floor(Math.random()*messages.length)]);
+    },22000);
+  }
 })();
 
 // ────────────────────────────────────────────────────────────────
@@ -153,7 +156,7 @@ function triggerCollapse(){
 
   // Audio Siren Alarm (Tone.js)
   try{
-    if(window.Tone){
+    if(window.Tone && !window.OMEGA_REDUCED_MOTION){
       Tone.start();
       var synth = new Tone.Synth({oscillator:{type:'sawtooth'}}).toDestination();
       synth.volume.value = -12;
@@ -210,29 +213,8 @@ function triggerCollapse(){
 window.triggerCollapse=triggerCollapse;
 
 // Global input listener watching for "thiago" typed anywhere
-(function(){
-  var buffer = '';
-  document.addEventListener('keydown', function(e){
-    if(e.key && e.key.length === 1){
-      buffer += e.key.toLowerCase();
-      if(buffer.length > 20) buffer = buffer.slice(-20);
-      if(buffer.indexOf('thiago') !== -1){
-        buffer = '';
-        triggerCollapse();
-      }
-    }
-  });
-
-  // Attach input listener to all inputs
-  document.addEventListener('input', function(e){
-    if(e.target && e.target.value){
-      if(e.target.value.toLowerCase().indexOf('thiago') !== -1){
-        e.target.value = e.target.value.replace(/thiago/gi, '***');
-        triggerCollapse();
-      }
-    }
-  });
-})();
+// Collapse only by explicit call from console or a dedicated UI action.
+// This avoids accidental heavy overlays while typing anywhere on the page.
 
 // ────────────────────────────────────────────────────────────────
 // 6. TOOLS IA EXTRA

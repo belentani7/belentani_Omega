@@ -1,0 +1,107 @@
+{
+  "schema": "belentani-album-1",
+  "title": "Judas Experience: The Debt",
+  "artist": "Belentani",
+  "era": "Judas Era",
+  "type": "EP conceptual",
+  "releaseStatus": "en-produccion",
+  "releaseDate": "2026-TBD",
+  "language": "es",
+  "languages": ["es", "pt", "en", "ca"],
+  "producer": "Hey Duck (Recife, BR)",
+  "totalDuration": "18:42",
+  "videoClip": {
+    "title": "Besé a Judas — Cortometraje",
+    "duration": "5:12",
+    "acts": 3
+  },
+  "frequencies": [432, 528, 639, 741, 852],
+  "frequencyNote": "Las frecuencias son lenguaje simbólico y sonoro del proyecto; no representan tratamiento ni beneficio clínico.",
+  "tracks": [
+    {
+      "id": "T01",
+      "title": "Obertura",
+      "subtitle": "El Hombre Integrado",
+      "phase": 0,
+      "duration": "1:48",
+      "bpm": 72,
+      "key": "La menor",
+      "mood": "ambient · spoken",
+      "instrumental": true,
+      "lyrics": "[Intro]\nSequé su pelo en mi pecho\nQuité mi chaqueta, lo acosté\nRecé bajito pa' que se quedara\nLas estrellas se apagaban, en Molly, en el aire\nModesto por fuera, pero algo ardía\nLo hacía sentir más grande, todavía\nPorque miré hacia abajo, vi\nNo era solo aire, ay",
+      "source": "data/drive-corpus/01-judas-LETRAS-4-idiomas.txt · [Intro] ES"
+    },
+    {
+      "id": "T02",
+      "title": "Trueno Botas y Cadena",
+      "subtitle": "La Deuda Impagable",
+      "phase": 1,
+      "duration": "3:24",
+      "bpm": 128,
+      "key": "Re menor",
+      "mood": "tensión · pulso",
+      "lyrics": "[Verso 1]\nLlegó trueno, botas y cadena\nSonrisa dulce, fuego por dentro\nOjos en brasa, voz como el vino\nHice nevar, perdimos el camino\nMordí el anzuelo cuando dijo mi nombre\nDijo \"estás a salvo\", sentí frío que esconde\nMe entregué a la tormenta\nSentí su fuego, tomé su forma lenta\n\n[Pre-Coro]\nMentira, ya lo sabía\n¿Pero qué hace un hombre como yo, ese día?\nDijo: el amor es solo un juego\nAun así, fui y lo besé luego",
+      "source": "data/drive-corpus/01-judas-LETRAS-4-idiomas.txt · [Verso 1]+[Pre-Coro] ES"
+    },
+    {
+      "id": "T03",
+      "title": "Besé a Judas",
+      "subtitle": "El crimen santo",
+      "phase": 2,
+      "duration": "3:56",
+      "bpm": 96,
+      "key": "Mi menor",
+      "mood": "coro · confesión",
+      "lyrics": "[Coro]\nBesé a Judas, besé a Judas\nCaí tan fuerte, no hay más vuelta\nLabios en llamas, beso que cae\nMe dije: es la última, ay\nAy, ay, Judas, Judas, ay\nTú me quemas, me haces caer\nBesé a Judas, besé a Judas\nY lo haría todo otra vez, ay",
+      "source": "data/drive-corpus/01-judas-LETRAS-4-idiomas.txt · [Coro] ES"
+    },
+    {
+      "id": "T04",
+      "title": "El Evangelio en la Piel",
+      "subtitle": "El Robo y El Canto",
+      "phase": 2,
+      "duration": "3:42",
+      "bpm": 88,
+      "key": "Sol menor",
+      "mood": "íntimo · traición",
+      "lyrics": "[Verso 2]\nSe quedó cuando el cielo gritaba\nSe acostó conmigo, un ángel cantaba\nCadena de oro, corona rota\nVolteó mi mundo del derecho al revés, sin nota\nEs pirata, lleno de rezos\nEscribió su evangelio entre besos\nEn mi piel y en mi cama\nVendió mi alma al diablo, sin trama\n\n[Pre-Coro 2]\nSombra vestida de luz\nSusurra \"corre\", pero no suelta el pulso\nDijo: traición sabe a verdad\nFui débil, él fue la prueba, no hay piedad",
+      "source": "data/drive-corpus/01-judas-LETRAS-4-idiomas.txt · [Verso 2]+[Pre-Coro 2] ES"
+    },
+    {
+      "id": "T05",
+      "title": "Pedro y la Espada",
+      "subtitle": "La Victoria Amarga",
+      "phase": 3,
+      "duration": "3:18",
+      "bpm": 104,
+      "key": "Do menor",
+      "mood": "batalla · vergüenza",
+      "lyrics": "[Puente]\nDijeron que debía tratarme\nDijeron que debí alejarme\nPero Pedro es como me llaman\nDueño de mi tierra, aquí me quedo y me reclaman\nLo vendí por treinta monedas, tal vez\nVi a la espada, sentí la vergüenza de una vez\nY si preguntan qué lamento\nNo acabé mi propio tormento\n\n[Breakdown]\nSi crees que conoces mi pecho\nNo sabes dónde fui, cuál fue mi hecho\nJudas jugó conmigo con fuego\nQuien con fuego juega, se quema luego\nAun así, lo haría de nuevo",
+      "source": "data/drive-corpus/01-judas-LETRAS-4-idiomas.txt · [Puente]+[Breakdown] ES"
+    },
+    {
+      "id": "T06",
+      "title": "Outro / La Deuda Impagable",
+      "subtitle": "La Mentira Compartida",
+      "phase": 4,
+      "duration": "2:54",
+      "bpm": 70,
+      "key": "La menor",
+      "mood": "caída · revelación",
+      "lyrics": "[Coro Final]\n¡Besé a Judas! (¡Besé a Judas!)\nVolteó la cara, ya nos conocía\n(Oh, oh, ohhh) (Ojos de fuego)\nEra el cielo disfrazado, ya lo sabía\n¡Judas! ¡Judas!\nEncendí el fósforo, tú llevaste la llama\nBesé a Judas, besé a Judas\nY lo haría todo otra vez—\n\n[Outro]\nBesé a Judas, besé a Judas\nLo haría todo otra vez\nPedro es como me llaman, mi bien...",
+      "source": "data/drive-corpus/01-judas-LETRAS-4-idiomas.txt · [Coro Final]+[Outro] ES"
+    }
+  ],
+  "multilingualLyrics": {
+    "file": "data/drive-corpus/01-judas-LETRAS-4-idiomas.txt",
+    "languages": ["Español", "Português (BR)", "English", "Català"],
+    "method": "silábico-tónico, versión final por idioma"
+  },
+  "pipeline": {
+    "voice": "RVC",
+    "imageVideo": ["ComfyUI", "Wan2.2"],
+    "audio": ["Ardour", "Surge XT"],
+    "lyricVideo": "Remotion",
+    "encoding": "FFmpeg"
+  }
+}

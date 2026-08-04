@@ -1,8 +1,9 @@
-var CACHE = 'belentani-omega-v15';
+var CACHE = 'belentani-omega-v16';
 var CORE = [
   './',
   './index.html',
   './manifest.json',
+  './data/omega-canon.json',
   './css/main.css',
   './js/01-boot.js',
   './js/02-scroll.js',
@@ -16,6 +17,8 @@ var CORE = [
   './js/10-v13.js',
   './js/11-unified.js',
   './js/12-hero-media.js',
+  './js/13-chat-ledger-runtime.js',
+  './assets/media/judas-poster.webp',
   './js/sw-register.js'
 ];
 

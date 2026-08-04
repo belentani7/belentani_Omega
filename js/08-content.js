@@ -56,7 +56,7 @@ function observeRV(){
     R.forEach(function(r,i){
       if(gFilter!=='ALL'&&GCATS[r]!==gFilter)return;
       var n=String(i+1).padStart(2,'0');
-      g.innerHTML+='<div class="tcard gal rv" data-idx="'+i+'" style="padding:0;overflow:hidden;cursor:pointer"><img src="'+PHOTOS[i]+'" loading="lazy" style="width:100%;height:300px;object-fit:cover" onerror="this.onerror=null;this.src=\''+fb(i,600,400)+'\'"><div class="glab"><span>RECORD_'+(i+1)+'</span> '+r+'</div></div>';
+      g.innerHTML+='<div class="tcard gal rv" data-idx="'+i+'" role="button" tabindex="0" aria-label="Abrir '+r+'" style="padding:0;overflow:hidden;cursor:pointer"><img src="'+PHOTOS[i]+'" loading="lazy" alt="'+r+'" style="width:100%;height:300px;object-fit:cover" onerror="this.onerror=null;this.src=\''+fb(i,600,400)+'\'"><div class="glab"><span>RECORD_'+(i+1)+'</span> '+r+'</div></div>';
     });
     observeRV();
   }
@@ -79,6 +79,7 @@ function observeRV(){
     lb.classList.add('on');
   }
   g.addEventListener('click',function(e){var c=e.target.closest('.gal');if(c)openLB(+c.dataset.idx)});
+  g.addEventListener('keydown',function(e){var c=e.target.closest('.gal');if(c&&(e.key==='Enter'||e.key===' ')){e.preventDefault();openLB(+c.dataset.idx)}});
   var lb=document.getElementById('galLB');
   if(lb){
     lb.querySelector('.lb-prev').addEventListener('click',function(e){e.stopPropagation();openLB((lbIdx-1+R.length)%R.length)});

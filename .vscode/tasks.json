@@ -1,0 +1,54 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "BELENTANI: servidor local",
+      "type": "shell",
+      "command": "python",
+      "args": ["-m", "http.server", "5500"],
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "label": "BELENTANI: estado Git",
+      "type": "shell",
+      "command": "git",
+      "args": ["status", "--short"],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      }
+    },
+    {
+      "label": "BELENTANI: generar ledger 10K",
+      "type": "shell",
+      "command": "pwsh",
+      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/tools/build-chat-10k-ledger.ps1"],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    },
+    {
+      "label": "BELENTANI: validar JavaScript",
+      "type": "shell",
+      "command": "pwsh",
+      "args": ["-NoProfile", "-Command", "Get-ChildItem '${workspaceFolder}/js' -Filter '*.js' | ForEach-Object { node --check $_.FullName }"],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      }
+    }
+  ]
+}

@@ -6,7 +6,8 @@
   if(window.OMEGA_REDUCED_MOTION||!canvas||!window.THREE||!THREE.EffectComposer||!THREE.RenderPass||!THREE.UnrealBloomPass){if(canvas)canvas.style.display='none';return}
   var scene=new THREE.Scene(),camera=new THREE.PerspectiveCamera(75,innerWidth/innerHeight,.1,1000);
   var renderer=new THREE.WebGLRenderer({canvas:canvas,alpha:true,antialias:true});
-  renderer.setSize(innerWidth,innerHeight);renderer.setPixelRatio(Math.min(devicePixelRatio,2));camera.position.z=40;
+  var LOW_POWER = (navigator.hardwareConcurrency && navigator.hardwareConcurrency <= 4) || innerWidth < 1200 || (navigator.deviceMemory && navigator.deviceMemory <= 4);
+  renderer.setSize(innerWidth,innerHeight);renderer.setPixelRatio(Math.min(devicePixelRatio, LOW_POWER ? 1.25 : 1.75));camera.position.z=40;
   renderer.toneMapping=THREE.ReinhardToneMapping;renderer.toneMappingExposure=1.2;
 
   // ── POST-PROCESSING: EffectComposer + UnrealBloom + Chromatic Aberration ──
@@ -39,12 +40,12 @@
   var wire=new THREE.Mesh(new THREE.IcosahedronGeometry(11.5,1),new THREE.MeshBasicMaterial({color:0xff003c,wireframe:true,transparent:true,opacity:.07}));scene.add(wire);
 
   // ── RING PARTICLES ──
-  var RC=2400,rP=new Float32Array(RC*3),rR=new Float32Array(RC);
+  var RC=LOW_POWER ? 1200 : 2400,rP=new Float32Array(RC*3),rR=new Float32Array(RC);
   for(var i=0;i<RC;i++){var a=Math.random()*Math.PI*2,r=13+Math.random()*9;rP[i*3]=Math.cos(a)*r;rP[i*3+1]=(Math.random()-.5)*1.8;rP[i*3+2]=Math.sin(a)*r;rR[i]=Math.random()}
   var rGeo=new THREE.BufferGeometry();rGeo.setAttribute('position',new THREE.BufferAttribute(rP,3));rGeo.setAttribute('aRandom',new THREE.BufferAttribute(rR,1));
 
   // ── POINT CLOUD ──
-  var PC=1800,pP=new Float32Array(PC*3),pR=new Float32Array(PC);
+  var PC=LOW_POWER ? 900 : 1800,pP=new Float32Array(PC*3),pR=new Float32Array(PC);
   for(var i=0;i<PC;i++){var r=18+Math.random()*28,th=Math.random()*Math.PI*2,ph=Math.acos(2*Math.random()-1);pP[i*3]=r*Math.sin(ph)*Math.cos(th);pP[i*3+1]=r*Math.sin(ph)*Math.sin(th);pP[i*3+2]=r*Math.cos(ph);pR[i]=Math.random()}
   var pGeo=new THREE.BufferGeometry();pGeo.setAttribute('position',new THREE.BufferAttribute(pP,3));pGeo.setAttribute('aRandom',new THREE.BufferAttribute(pR,1));
   var pU={uTime:{value:0},uMouse:{value:new THREE.Vector2},uColor:{value:new THREE.Color(0xff003c)},uScrollColor:{value:0},uHover:{value:0},uAudio:{value:0}};
@@ -109,6 +110,7 @@
   // ── ANIMATION LOOP ──
   var clock=new THREE.Clock();
   function anim(){
+    if(document.hidden){requestAnimationFrame(anim);return}
     var t=clock.getElapsedTime();
     var dt=Math.min(clock.getDelta(),.05);
 

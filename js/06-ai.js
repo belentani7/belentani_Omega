@@ -10,7 +10,7 @@ var SYS='CORE_AI: sistema operativo creativo de Belentani (JUDAS ERA). IA futuri
 // ────────────────────────────────────────────────────────────────
 var naveResponses = {
   'omega': '> OMEGA PROTOCOL ACTIVATED. La frecuencia 432Hz resuena en todas las dimensiones. El artefacto está completo. ¿Qué buscas, viajero?',
-  'help': '> COMANDOS: omega · judas · lore · elements · music · zion · status · clear · reset · free belentani · rock · chronicle · antenna · artifact · interface · 432|528|639|741|852 (frecuencias) · export',
+  'help': '> COMANDOS: omega · judas · lore · elements · music · zion · status · clear · reset · free belentani · rock · chronicle · antenna · artifact · interface · 432|528|639|741|852 (frecuencias) · chatexport',
   'status': '> SYS.STATUS: OMEGA\n> NODE: JUDAS-CORE-07\n> INTEGRIDAD: 98.7%\n> FIRMA ACTIVA: 3/5\n> AMENAZA: NIVEL 3\n> FRECUENCIA: 432.00 Hz\n> ESTADO: OPERACIONAL',
   'judas': '> JUDAS PROTOCOL v6.0\n> "La traición no es el final. Es el input."\n> El código dentro del código fue desactivado por la entidad ZION. Judas tomó la llave, pero selló su ruina. El "final mediocre" es la clave maestra.',
   'lore': '> LORE ACTUALIZADO:\n> Fase 1: El Hombre Integrado — Pedro, Marcos, Santos, Belentani.\n> Fase 2: La Deuda — Judas recibe devoción sin devolverla.\n> Fase 3: El Robo — La Llave Dorada es tomada.\n> Fase 4: El Canto — Pedro canta después del robo.\n> Fase 5: La Victoria Amarga — Judas victorioso y destrozado.\n> Fase 6: La Mentira — La llave nunca fue lo valioso.',
@@ -123,8 +123,8 @@ function trySecret(inp) {
     if (typeof ascend === 'function') ascend();
     return '> ASCENSION OMEGA INICIADA';
   }
-  if (k === 'help') return '> COMANDOS: rock|chronicle|antenna|artifact|interface (firmas) · 432|528|639|741|852 (freq) · omega (ascension) · belentani free (purga) · status · reset · export';
-  if (k === 'export') { exportChatAsTxt(); return '> CHAT EXPORTADO COMO .txt'; }
+  if (k === 'help') return '> COMANDOS: rock|chronicle|antenna|artifact|interface (firmas) · 432|528|639|741|852 (freq) · omega (ascension) · belentani free (purga) · status · reset · chatexport';
+  if (k === 'chatexport') { exportChatAsTxt(); return '> CHAT EXPORTADO COMO .txt'; }
   return null;
 }
 

@@ -1,0 +1,39 @@
+{
+  "version": "omega-canon-1",
+  "artist": "Belentani",
+  "era": "Judas Era",
+  "identity": {
+    "prefix": "BEL",
+    "storageKey": "belentani_omega_identity"
+  },
+  "frequencies": [432, 528, 639, 741, 852],
+  "frequencyNote": "Las frecuencias son lenguaje simbólico y sonoro del proyecto; no representan tratamiento ni beneficio clínico.",
+  "temporalGate": {
+    "name": "El Entre",
+    "startHour": 3,
+    "endHour": 4,
+    "endMinute": 44
+  },
+  "elements": [
+    { "id": "rock", "name": "La Roca", "voice": "Pedro" },
+    { "id": "chronicle", "name": "El Cronista", "voice": "Marcos" },
+    { "id": "antenna", "name": "La Antena", "voice": "Santos" },
+    { "id": "artifact", "name": "El Artefacto", "voice": "Arte" },
+    { "id": "interface", "name": "La Interfaz", "voice": "Humano" }
+  ],
+  "tracks": [
+    "Mon Amour",
+    "Therapist",
+    "Apaga Luz",
+    "Judas",
+    "Lento",
+    "Wrote Song"
+  ],
+  "phases": [
+    "El Hombre Integrado",
+    "La Deuda Impagable",
+    "El Robo y El Canto",
+    "La Victoria Amarga",
+    "La Mentira Compartida"
+  ]
+}

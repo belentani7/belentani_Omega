@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="es" data-page="portal">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portal interactivo de Belentani Omega: el Ojo de Judas, una terminal local y los comandos del sistema. Ninguna señal sale de este navegador.">
+  <meta name="author" content="Pedro Marcos Santos Belentani">
+  <meta name="theme-color" content="#08090d">
+  <meta name="color-scheme" content="dark">
+  <link rel="canonical" href="https://www.belentani.es/portal/">
+  <link rel="icon" href="../assets/icons/favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Portal — BELENTANI">
+  <meta property="og:description" content="El portal responde. Activa una palabra, consulta un estado o vuelve al archivo.">
+  <meta property="og:url" content="https://www.belentani.es/portal/">
+  <meta property="og:image" content="https://www.belentani.es/assets/media/judas-poster.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>BELENTANI — Portal · Ojo de Judas y terminal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/ecosystem.css">
+</head>
+<body class="env-portal">
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <header class="site-header">
+    <a class="brand" href="../"><span class="brand-mark">B</span><span><strong>BELENTANI</strong><small>JUDAS ERA / OMEGA</small></span></a>
+    <nav class="site-nav" aria-label="Navegación principal">
+      <a href="../">Umbral</a><a href="../artist/">Artista</a><a href="../judas/">Judas</a><a href="../archive/">Archivo</a><a href="../studio/">Studio</a><a class="is-current" href="../portal/">Portal</a><a href="../contact/">Contacto</a><a href="../versions/">Versiones</a>
+    </nav>
+    <div class="header-tools"><span class="system-state"><i></i> PORTAL ACTIVE</span><button class="lang-toggle" type="button" data-language-toggle>ES</button></div>
+  </header>
+
+  <main id="main" class="page-main">
+    <section class="page-hero" style="--accent:var(--violet)">
+      <p class="eyebrow">05 / FUNCIÓN / ACTIVACIÓN</p>
+      <h1>El portal<br><em>responde.</em></h1>
+      <p>Una interfaz pequeña y deliberada. Activa una palabra, consulta un estado o vuelve al archivo. Aquí la interacción tiene una función concreta — y todo corre en local: ninguna señal sale de este navegador.</p>
+    </section>
+
+    <section class="content-grid" aria-labelledby="ojoTitle">
+      <article class="panel panel-wide" data-judas-eye-host>
+        <p class="eyebrow">OJO DE JUDAS / OBSERVADOR</p>
+        <h2 id="ojoTitle">El ojo no vigila. Mira contigo.</h2>
+        <p>Mueve el cursor dentro del campo. La pupila te sigue; el iris cambia con la presión. Es la interfaz más simple del sistema: te ve para que tú veas cómo te ve.</p>
+        <div class="eye-stage" data-judas-eye aria-hidden="true">
+          <canvas class="eye-canvas" data-eye-canvas></canvas>
+          <svg class="eye-svg" viewBox="0 0 400 240" aria-hidden="true">
+            <defs>
+              <radialGradient id="irisGrad" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#ef3158"/>
+                <stop offset="60%" stop-color="#9b8cff"/>
+                <stop offset="100%" stop-color="#08090d"/>
+              </radialGradient>
+            </defs>
+            <ellipse cx="200" cy="120" rx="170" ry="80" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="2"/>
+            <ellipse cx="200" cy="120" rx="150" ry="66" fill="#0b0c12"/>
+            <circle class="eye-iris" data-eye-iris cx="200" cy="120" r="44" fill="url(#irisGrad)"/>
+            <circle class="eye-pupil" data-eye-pupil cx="200" cy="120" r="16" fill="#08090d"/>
+            <circle class="eye-glint" data-eye-glint cx="210" cy="110" r="4" fill="#fff" opacity="0.8"/>
+          </svg>
+          <span class="eye-readout" data-eye-readout>PRESIÓN 0.00 · ESTABLE</span>
+        </div>
+      </article>
+      <aside class="panel panel-side">
+        <p class="eyebrow">ESTADO DEL SISTEMA</p>
+        <h3>Lectura viva.</h3>
+        <dl class="status-list" data-portal-status>
+          <dt>OMEGA</dt><dd data-status="omega">ONLINE</dd>
+          <dt>ARTEFACTO</dt><dd data-status="artifact">EN ESPERA</dd>
+          <dt>FRECUENCIA</dt><dd data-status="freq">432 Hz</dd>
+          <dt>PUERTA TEMPORAL</dt><dd data-status="gate">EL ENTRE · 3:00–4:44</dd>
+          <dt>CONEXIÓN</dt><dd data-status="net">LOCAL · NINGÚN ENVÍO</dd>
+        </dl>
+      </aside>
+    </section>
+
+    <section class="content-grid" aria-labelledby="terminalTitle">
+      <article class="panel panel-wide">
+        <p class="eyebrow">JUDAS CORE / CONSOLA LOCAL</p>
+        <h2 id="terminalTitle">Terminal.</h2>
+        <p>Escribe y pulsa Enter. La consola interpreta comandos y responde en pantalla; nada se envía fuera. Prueba <code>help</code>, <code>judas</code> o el nombre de cualquiera de las cinco gemas.</p>
+        <div class="portal-console">
+          <div class="console-log" data-console-output>&gt; SISTEMA LISTO.
+&gt; ESCRIBE: <strong>help</strong> · <strong>judas</strong> · <strong>omega</strong>.
+&gt; NINGUNA SEÑAL SALE DE ESTE NAVEGADOR.</div>
+          <div class="console-controls">
+            <input data-console-input aria-label="Comando del portal" autocomplete="off" placeholder="escribe un comando y pulsa enter" type="text">
+            <button type="button" data-console-send>EJECUTAR</button>
+          </div>
+        </div>
+      </article>
+      <aside class="panel panel-side">
+        <p class="eyebrow">COMANDOS / REFERENCIA</p>
+        <h3>Léxico activable.</h3>
+        <ul class="cmd-list">
+          <li><code>help</code><span>lista todos los comandos</span></li>
+          <li><code>about</code><span>qué es el sistema</span></li>
+          <li><code>judas</code><span>leer el arquetipo</span></li>
+          <li><code>omega</code><span>estado de la arquitectura</span></li>
+          <li><code>rock</code><span>firma 1/5 · Pedro</span></li>
+          <li><code>chronicle</code><span>firma 2/5 · Marcos</span></li>
+          <li><code>antenna</code><span>firma 3/5 · Santos</span></li>
+          <li><code>artifact</code><span>firma 4/5 · Belentani</span></li>
+          <li><code>interface</code><span>firma 5/5 · Human</span></li>
+          <li><code>frequency</code><span>tabla 432/528/639/741/852</span></li>
+          <li><code>clear</code><span>limpia la consola</span></li>
+          <li><code>thiago</code><span>collapse sequence (60 s)</span></li>
+        </ul>
+        <div class="route-links">
+          <a href="../judas/">Leer la narrativa ↗</a>
+          <a href="../studio/">Ver el proceso ↗</a>
+        </div>
+      </aside>
+    </section>
+  </main>
+  <footer class="site-footer"><span>BELENTANI / JUDAS ERA</span><span>Toda interacción es local</span><a href="../contact/">Contacto ↗</a></footer>
+  <script src="../js/09-terminal.js" defer></script>
+  <script src="../js/ecosystem.js"></script>
+</body>
+</html>

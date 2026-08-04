@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="es" data-page="studio">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Studio de Belentani Omega: pipeline vivo, herramientas, experimentos, código y sonido. Three.js, Tone.js, RVC, ComfyUI, Wan2.2, Ardour, Surge XT, Remotion.">
+  <meta name="author" content="Pedro Marcos Santos Belentani">
+  <meta name="theme-color" content="#08090d">
+  <meta name="color-scheme" content="dark">
+  <link rel="canonical" href="https://www.belentani.es/studio/">
+  <link rel="icon" href="../assets/icons/favicon.svg" type="image/svg+xml">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Studio — BELENTANI">
+  <meta property="og:description" content="El laboratorio: pipeline, herramientas, experimentos, código y sonido.">
+  <meta property="og:url" content="https://www.belentani.es/studio/">
+  <meta property="og:image" content="https://www.belentani.es/assets/media/judas-poster.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>BELENTANI — Studio · Pipeline y experimentos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/ecosystem.css">
+</head>
+<body class="env-studio">
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <header class="site-header">
+    <a class="brand" href="../"><span class="brand-mark">B</span><span><strong>BELENTANI</strong><small>JUDAS ERA / OMEGA</small></span></a>
+    <nav class="site-nav" aria-label="Navegación principal">
+      <a href="../">Umbral</a><a href="../artist/">Artista</a><a href="../judas/">Judas</a><a href="../archive/">Archivo</a><a class="is-current" href="../studio/">Studio</a><a href="../portal/">Portal</a><a href="../contact/">Contacto</a><a href="../versions/">Versiones</a>
+    </nav>
+    <div class="header-tools"><span class="system-state"><i></i> STUDIO READY</span><button class="lang-toggle" type="button" data-language-toggle>ES</button></div>
+  </header>
+
+  <main id="main" class="page-main">
+    <section class="page-hero" style="--accent:var(--brass)">
+      <p class="eyebrow">04 / PROCESO / HERRAMIENTAS</p>
+      <h1>El studio<br><em>muestra el cómo.</em></h1>
+      <p>Un laboratorio para entender decisiones: qué herramienta sirve para cada capa y qué parte sigue siendo criterio humano. Aquí no se esconde el motor, se enseña.</p>
+    </section>
+
+    <section class="content-grid" aria-labelledby="pipelineTitle">
+      <article class="panel panel-full">
+        <p class="eyebrow">PIPELINE VIVO</p>
+        <h2 id="pipelineTitle">Cada capa tiene su herramienta, no su atajo.</h2>
+        <div class="process-list">
+          <div class="process-item"><span>01</span><h3>Texto y archivo</h3><p>Corpus local, narrativa, definiciones, letras en cuatro idiomas y ledger. La estructura editorial llega antes que el efecto. <code>data/drive-corpus/</code> es la fuente de verdad.</p></div>
+          <div class="process-item"><span>02</span><h3>Imagen y vídeo</h3><p>Fotografía, posters y hero WebGL. ComfyUI + Wan2.2 generan planos; FFmpeg los normaliza a <code>.webp</code> y <code>.mp4</code> con poster.</p></div>
+          <div class="process-item"><span>03</span><h3>Voz</h3><p>RVC clona y transporta la voz original. Ardour + Surge XT mezclan; 432/528 Hz son guía simbólica, no terapéutica.</p></div>
+          <div class="process-item"><span>04</span><h3>Render y código</h3><p>Three.js r128 con UnrealBloomPass, GSAP + ScrollTrigger, Lenis para scroll, GLSL shaders. El navegador es el escenario.</p></div>
+          <div class="process-item"><span>05</span><h3>Publicación</h3><p>HTML semántico estático, Service Worker, manifest. Sin frameworks de runtime: el archivo carga y se conserva.</p></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="content-grid" aria-labelledby="stackTitle">
+      <article class="panel panel-side">
+        <p class="eyebrow">STACK TÉCNICO</p>
+        <h2 id="stackTitle">Herramientas.</h2>
+        <p>Lo que se usa hoy. Cada entrada es una decisión, no una moda.</p>
+        <ul class="list-clean">
+          <li><strong>Three.js r128</strong> WebGL + bloom; canvas del hero y escenas.</li>
+          <li><strong>GSAP 3.12 + ScrollTrigger</strong> movimiento y secuencia por scroll.</li>
+          <li><strong>Tone.js 14.8</strong> audio generativo, Beat Forge, frecuencias.</li>
+          <li><strong>Lenis</strong> scroll suave.</li>
+          <li><strong>Canvas 2D</strong> motor de 60.000 partículas Genesis.</li>
+          <li><strong>GLSL</strong> diez shaders propios.</li>
+          <li><strong>RVC</strong> clonación y transporte de voz.</li>
+          <li><strong>ComfyUI + Wan2.2</strong> imagen y vídeo generativo.</li>
+          <li><strong>Ardour + Surge XT</strong> DAW y sintetizador.</li>
+          <li><strong>Remotion</strong> lyric videos por código.</li>
+          <li><strong>FFmpeg</strong> normalización y codificación.</li>
+        </ul>
+      </article>
+      <article class="panel panel-wide">
+        <p class="eyebrow">EXPERIMENTOS / MÓDULOS</p>
+        <h3>Prototipos vivos del sistema.</h3>
+        <p>Lo que comenzó como prueba y se quedó como lenguaje. Cada módulo tiene un comportamiento y un lugar en la narrativa.</p>
+        <div class="experiment-grid">
+          <article class="experiment-card"><span class="exp-tag">VISUAL</span><h4>Singularity Hero</h4><p>Canvas WebGL con singularidad de partículas que reacciona al cursor. Es el <em>field</em> del umbral.</p><code>js/18-singularity-hero.js</code></article>
+          <article class="experiment-card"><span class="exp-tag">INTERFAZ</span><h4>Diamond Scene</h4><p>Cinco tokens interactivos — GATE / SHIELD / VOID / FORGE / ECHO — sobre un diamante que rota.</p><code>js/03-webgl.js</code></article>
+          <article class="experiment-card"><span class="exp-tag">SONIDO</span><h4>Beat Forge</h4><p>Generador de beats con Tone.js: tres moods, secuencia de 16 pasos, exportable.</p><code>js/06-ai.js</code></article>
+          <article class="experiment-card"><span class="exp-tag">TEXTO</span><h4>Story Engine</h4><p>Cinco capítulos ramificados que se cruzan con las fases de Judas. El visitante elige el orden.</p><code>js/17-experience.js</code></article>
+          <article class="experiment-card"><span class="exp-tag">DIALOGO</span><h4>NAVE / AI Chat</h4><p>Chat local con 30+ patrones de respuesta. Nada sale del navegador.</p><code>js/11-unified.js</code></article>
+          <article class="experiment-card"><span class="exp-tag">RITUAL</span><h4>23 Santos</h4><p>Invocación visual con efectos de partículas; cada santo es un estado de ánimo.</p><code>js/13-chat-ledger-runtime.js</code></article>
+          <article class="experiment-card"><span class="exp-tag">RETO</span><h4>Collapse Sequence</h4><p>El comando <code>thiago</code> dispara una destrucción visual de 60 s. El sistema se rehece.</p><code>js/09-terminal.js</code></article>
+          <article class="experiment-card"><span class="exp-tag">MEMORIA</span><h4>Idea Archive</h4><p>Archivo de ideas versionadas que alimenta el motor de ideas y el ledger.</p><code>js/14-idea-archive.js</code></article>
+        </div>
+      </article>
+    </section>
+
+    <section class="content-grid" aria-labelledby="codeTitle">
+      <article class="panel panel-wide">
+        <p class="eyebrow">CÓDIGO / MUESTRA</p>
+        <h2 id="codeTitle">Cómo suena una frecuencia.</h2>
+        <p>El motor de partículas del hero y el núcleo de Tone.js no son decoración: son la misma idea — una herida que se organiza. Recorte representativo:</p>
+<pre class="code-block"><code>// js/18-singularity-hero.js — núcleo del campo
+const COUNT = 60000;            // partículas del Genesis Engine
+const geo = new THREE.BufferGeometry();
+geo.setAttribute('position',
+  new THREE.BufferAttribute(initField(COUNT), 1));
+const mat = new THREE.ShaderMaterial({
+  uniforms: { uTime: { value: 0 }, uPressure: { value: 0.0 } },
+  vertexShader: VERT, fragmentShader: FRAG,
+  blending: THREE.AdditiveBlending, transparent: true
+});
+renderer.setAnimationLoop(t =&gt; {
+  mat.uniforms.uTime.value = t * 0.001;
+  mat.uniforms.uPressure.value = cursorPressure();
+});</code></pre>
+      </article>
+      <aside class="panel panel-side">
+        <p class="eyebrow">SONIDO</p>
+        <h3>Frecuencias.</h3>
+        <p>Guía simbólica del proyecto. No representan tratamiento ni beneficio clínico.</p>
+        <dl class="freq-list">
+          <dt>432 Hz</dt><dd>Anclaje · base de afinación</dd>
+          <dt>528 Hz</dt><dd>Transformación · capa melódica</dd>
+          <dt>639 Hz</dt><dd>Conexión · voces en diálogo</dd>
+          <dt>741 Hz</dt><dd>Expresión · saturación</dd>
+          <dt>852 Hz</dt><dd>Intuición · aire final</dd>
+        </dl>
+        <div class="route-links">
+          <a href="../portal/">Probar la consola ↗</a>
+          <a href="../versions/">Ver versiones ↗</a>
+        </div>
+      </aside>
+    </section>
+  </main>
+  <footer class="site-footer"><span>BELENTANI / JUDAS ERA</span><span>El proceso es parte de la obra</span><a href="../contact/">Contacto ↗</a></footer>
+  <script src="../js/ecosystem.js"></script>
+</body>
+</html>

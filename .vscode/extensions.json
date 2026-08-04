@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "rooveterinaryinc.roo-cline",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "ritwickdey.liveserver",
+    "sonarsource.sonarlint-vscode",
+    "usernamehw.errorlens",
+    "ecmel.vscode-html-css",
+    "christian-kohler.path-intellisense",
+    "naumovs.color-highlight",
+    "slevesque.shader"
+  ]
+}

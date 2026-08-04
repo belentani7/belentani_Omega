@@ -2677,3 +2677,61 @@ html[data-theme='void'] body::before {
 .skip-link:focus { transform: translateY(0); }
 :focus-visible { outline: 2px solid var(--blood); outline-offset: 4px; }
 .site-footer { padding: 28px 20px; color: var(--txt-dim); font-family: var(--fm); font-size: 10px; letter-spacing: 3px; text-align: center; }
+
+/* Local canon/runtime controls: identity, symbolic frequency, temporal gate. */
+.omega-entity-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 10px;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  font: 10px var(--fm);
+  letter-spacing: 2px;
+  background: rgba(0, 0, 0, .42);
+}
+.omega-runtime-panel {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 360px);
+  gap: 28px;
+  max-width: 1200px;
+  margin: 0 auto 72px;
+  padding: 28px;
+  border: 1px solid var(--glass-border);
+  background: rgba(10, 0, 4, .78);
+  box-shadow: var(--glow-red);
+}
+.omega-runtime-kicker,
+.omega-runtime-gate,
+.omega-runtime-note { color: var(--gold); font: 10px/1.8 var(--fm); letter-spacing: 2px; }
+.omega-runtime-panel h2 { margin: 6px 0 8px; font: 700 22px var(--fd); letter-spacing: 3px; }
+.omega-runtime-copy { max-width: 620px; color: var(--txt-dim); }
+.omega-runtime-controls { display: grid; align-content: center; gap: 12px; }
+.omega-runtime-controls label { display: grid; gap: 6px; color: var(--txt-dim); font: 10px var(--fm); letter-spacing: 1px; }
+.omega-runtime-controls select,
+.omega-runtime-controls button { min-height: 42px; padding: 0 12px; border: 1px solid var(--blood); color: #fff; background: #10050a; font: 11px var(--fm); }
+.omega-runtime-controls button { cursor: pointer; }
+.omega-runtime-controls button:hover,
+.omega-runtime-controls button:focus-visible { background: var(--blood); color: #000; }
+.omega-runtime-controls output { color: var(--cyan); font: 700 16px var(--fm); letter-spacing: 3px; }
+html[data-reduced-motion='true'] * {
+  animation-duration: .001ms !important;
+  transition-duration: .001ms !important;
+  scroll-behavior: auto !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    transition-duration: .001ms !important;
+  }
+  html[data-reduced-motion='true'] * {
+    scroll-behavior: auto !important;
+  }
+}
+@media (max-width: 720px) {
+  .omega-runtime-panel { grid-template-columns: 1fr; margin-bottom: 44px; padding: 20px; }
+  .omega-entity-badge { display: none; }
+}
