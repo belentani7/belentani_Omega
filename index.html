@@ -17,16 +17,29 @@
   <meta property="og:description" content="Frecuencia hiperreal. Arquitectura del alma. El nucleo de una nueva era musical donde el trauma es el codigo y la voz es la llave.">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="BELENTANI OMEGA">
+  <meta property="og:url" content="https://belentani.es/">
+  <meta property="og:image" content="https://belentani.es/assets/images/og-cover.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="BELENTANI // JUDAS ERA">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="BELENTANI // JUDAS ERA">
   <meta name="twitter:description" content="Frecuencia hiperreal. Arquitectura del alma. El nucleo de una nueva era musical donde el trauma es el codigo y la voz es la llave.">
+  <meta name="twitter:image" content="https://belentani.es/assets/images/og-cover.jpg">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◉</text></svg>">
   <link rel="canonical" href="https://belentani.es">
-  <link rel="alternate" hreflang="es" href="https://belentani.es">
-  <link rel="alternate" hreflang="en" href="https://belentani.es/en">
-  <link rel="alternate" hreflang="pt" href="https://belentani.es/pt">
+  <link rel="alternate" hreflang="es" href="https://belentani.es/">
+  <link rel="alternate" hreflang="x-default" href="https://belentani.es/">
   <link rel="manifest" href="manifest.json">
+  <noscript>
+    <style>
+      #loader,#boot,.cur-dot,.cur-ring,.cur-cross,.cur-box{display:none!important}
+      .hero-video{display:none}
+      .hero-diamond{display:block!important}
+    </style>
+  </noscript>
   <script
     type="application/ld+json">{"@context":"https://schema.org","@type":"MusicArtist","name":"Belentani","alternateName":"Pedro Marcos Santos Belentani","birthDate":"1995-04-07","birthPlace":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Sao Paulo","addressCountry":"BR"}},"genre":["Pop","EDM","R&B","Electronic"],"sameAs":["https://www.instagram.com/belentani_/","https://open.spotify.com/artist/4YRxDV8wJFPHPTeXepOstw","https://www.youtube.com/@belentani","https://music.apple.com/artist/belentani/1522171354","https://soundcloud.com/belentani"]}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,23 +48,26 @@
     href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=JetBrains+Mono:wght@400;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap"
     rel="stylesheet">
   <!-- GSAP -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha384-g4NTh/Iv5PPU4xPyhEWqPcwtNXOvdaDI8LLnyYfyNZOjKJeYQyjzQ9X5275eBjpt" crossorigin="anonymous"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha384-Z3REaz79l2IaAZqJsSABtTbhjgOUYyV3p90XNnAPCSHg3EMTz1fouunq9WZRtj3d" crossorigin="anonymous"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js" integrity="sha384-RVPQwTb0fPz9kI8s5GwAq1Qioto9fnEQt1aKGSQSm8xV6+DIdBSgcCShoHqfKnhv" crossorigin="anonymous"></script>
   <!-- Three.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/EffectComposer.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/RenderPass.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/UnrealBloomPass.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/shaders/CopyShader.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/shaders/LuminosityHighPassShader.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/ShaderPass.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha384-CI3ELBVUz9XQO+97x6nwMDPosPR5XvsxW2ua7N1Xeygeh1IxtgqtCkGfQY9WWdHu" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/EffectComposer.js" integrity="sha384-GkidzTYmQg24v13sa3xhBBbvOLbVLO1QxfyKLdOWweQqNqS/iWwUst2T1fER2Xrg" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/RenderPass.js" integrity="sha384-2EpLreWSFuZsk4hcSplXLhlHd/wzvDNF907bTGIXSXM0SlhJNzy4YK0DhBFvkFEs" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/UnrealBloomPass.js" integrity="sha384-aVQ2QnWkoxhOefDB0YZB64OPVzujvccydpcC7UqMDJUK0ChwA382zOHmrWHGDRRa" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/shaders/CopyShader.js" integrity="sha384-nhO9toQuMo5osCuA0l+YFpSqscZWxDu251Bnho2gD3kSPv1neEwHg0LyEmrA+mPj" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/shaders/LuminosityHighPassShader.js" integrity="sha384-mY+ii969jnDCI2HjRHftH2NZVkIO5ZGUkcnGCg3oVJ3kVstWQXwerYWBg+nbUG4R" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/ShaderPass.js" integrity="sha384-I3lsvPeDJYFrEAzn/TA0yhc/SCYKwpyfyq8lKzHYKohu43H9f7xc/Q9ZWgSVUDl3" crossorigin="anonymous"></script>
   <!-- Tone.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js" integrity="sha384-c6Uo4N9c3SOEigMVzP6IshUG1wQ5uMp3xeoQFiHWAQ86joWdgyajkvopySyKy/Z6" crossorigin="anonymous"></script>
   <!-- Lenis -->
-  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js" integrity="sha384-tKsJDT6PlUI0pSBt9/sBKJluKgA19/a6mBrDsZaXotLB4ZYfMGM6xt6/WgGpYhTm" crossorigin="anonymous"></script>
   <!-- CSS -->
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="site/css/omega-next.css">
+  <link rel="stylesheet" href="site/css/omega-supreme.css">
+  <link rel="stylesheet" href="site/css/omega-clean.css">
 </head>
 
 <body>
@@ -150,19 +166,19 @@
 
 <!-- NAV -->
 <nav class="topnav">
-  <div class="ndots">
-    <div class="ndot on" data-t="home"></div>
-    <div class="ndot" data-t="artist"></div>
-    <div class="ndot" data-t="music"></div>
-    <div class="ndot" data-t="judas"></div>
-    <div class="ndot" data-t="zion"></div>
-    <div class="ndot" data-t="concept"></div>
-    <div class="ndot" data-t="portal"></div>
-    <div class="ndot" data-t="gallery"></div>
-    <div class="ndot" data-t="ailab"></div>
-    <div class="ndot" data-t="studio"></div>
-    <div class="ndot" data-t="challenges"></div>
-    <div class="ndot" data-t="contact"></div>
+  <div class="ndots" onkeydown="if((event.key==='Enter'||event.key===' ')&&event.target.classList.contains('ndot')){event.preventDefault();event.target.click()}">
+    <div class="ndot on" data-t="home" role="button" tabindex="0" aria-label="Ir a Home"></div>
+    <div class="ndot" data-t="artist" role="button" tabindex="0" aria-label="Ir a The Artist"></div>
+    <div class="ndot" data-t="music" role="button" tabindex="0" aria-label="Ir a Music"></div>
+    <div class="ndot" data-t="judas" role="button" tabindex="0" aria-label="Ir a Judas"></div>
+    <div class="ndot" data-t="zion" role="button" tabindex="0" aria-label="Ir a Zion"></div>
+    <div class="ndot" data-t="concept" role="button" tabindex="0" aria-label="Ir a Concept"></div>
+    <div class="ndot" data-t="portal" role="button" tabindex="0" aria-label="Ir a Portal"></div>
+    <div class="ndot" data-t="gallery" role="button" tabindex="0" aria-label="Ir a Gallery"></div>
+    <div class="ndot" data-t="ailab" role="button" tabindex="0" aria-label="Ir a AI Lab"></div>
+    <div class="ndot" data-t="studio" role="button" tabindex="0" aria-label="Ir a Studio"></div>
+    <div class="ndot" data-t="challenges" role="button" tabindex="0" aria-label="Ir a Desafíos"></div>
+    <div class="ndot" data-t="contact" role="button" tabindex="0" aria-label="Ir a Contact"></div>
   </div>
   <div class="sec-name" id="secName">00 // GENESIS</div>
 </nav>
@@ -178,13 +194,14 @@
 <!-- HOME / HERO -->
 <section id="home">
   <div class="hero-media" aria-hidden="true">
-    <video class="hero-video" id="heroVideo" autoplay muted loop playsinline preload="metadata"
-      poster="img/diamond_scene.png">
+    <video class="hero-video" id="heroVideo" autoplay muted loop playsinline preload="none"
+      width="1600" height="900" poster="assets/images/og-cover.jpg">
       <source src="assets/media/judas-hero.mp4" type="video/mp4">
     </video>
-    <img class="hero-diamond" src="img/diamond_scene.png" alt="">
+    <div class="glass-prism" aria-hidden="true"></div>
   </div>
-  <div class="hero-c">
+  <div class="hero-c glass-thick glass-pulse refract">
+    <span class="light-beam" aria-hidden="true"></span>
     <div class="hero-pre">◉ BELENTANI PRESENTA • JUDAS ERA • 2026 ◉</div>
     <h1 class="hero-title" id="heroTitle">BELENTANI</h1>
     <p class="hero-sub">Belentani dirige un ecosistema visual y sonoro donde el cristal, el neón y la voz operan como
@@ -279,20 +296,19 @@
       </div>
     </div>
     <div class="core-media">
-      <img src="img/diamond_scene.png"
-        alt="Diamante generado en Blender para la experiencia Belentani">
-      <div class="core-caption">Render del núcleo simbólico de Judas Era.</div>
+      <div class="glass-prism" role="img" aria-label="Prisma de cristal grueso con luz neón roja pulsante, núcleo simbólico de Judas Era"></div>
+      <div class="core-caption">Núcleo simbólico de Judas Era · cristal y luz.</div>
     </div>
   </div>
 </section>
 
 <!-- ARTIST -->
 <section id="artist" class="sec">
-  <h1 class="sec-title rv">THE <span>ARTIST</span></h1>
+  <h2 class="sec-title rv">THE <span>ARTIST</span></h2>
   <div class="sec-sub rv">RECORD_01 // ARCHITECT OF EXPERIENCE</div>
   <div class="bio-row rv">
     <div class="bio-img">
-      <img src="https://files.catbox.moe/943t1r.png" loading="lazy" alt="Belentani">
+      <img src="assets/images/artist.webp" loading="lazy" decoding="async" width="1400" height="2100" alt="Retrato de Belentani">
       <div class="btag">ARCHIVE // VENOM</div>
     </div>
     <div class="bio-txt">
@@ -317,7 +333,7 @@
   </div>
   <div class="bio-row rev rv">
     <div class="bio-img">
-      <img src="https://files.catbox.moe/8s1v5g.jpg" loading="lazy" alt="Belentani Gaze">
+      <img src="assets/images/artist-gaze.webp" loading="lazy" decoding="async" width="1400" height="2100" alt="Mirada de Belentani">
       <div class="btag">SYSTEM.LOG // "HACKEO COMPLETADO"</div>
     </div>
     <div class="bio-txt">
@@ -380,7 +396,7 @@
 
 <!-- MUSIC -->
 <section id="music" class="sec">
-  <h1 class="sec-title rv">SONIC <span>ARCHIVE</span></h1>
+  <h2 class="sec-title rv">SONIC <span>ARCHIVE</span></h2>
   <div class="sec-sub rv">AUDIO_SYNTHESIS_MODULE // FREQUENCY_SCAN</div>
   <div style="max-width:780px;margin:0 auto 56px;width:100%">
     <div class="trow rv"><span class="tn">&#9672; Mon Amour</span><span class="tp">APPLE MUSIC</span></div>
@@ -417,11 +433,11 @@
 
 <!-- JUDAS -->
 <section id="judas" class="sec">
-  <h1 class="sec-title rv">JUDAS <span>ERA</span></h1>
+  <h2 class="sec-title rv">JUDAS <span>ERA</span></h2>
   <div class="sec-sub rv" style="color:var(--blood)">FIGURA ESCÉNICA // MITO VIVO</div>
   <div class="bio-row rv" style="margin-bottom:44px">
     <div class="bio-img">
-      <img src="https://files.catbox.moe/h0wamv.jpg" loading="lazy" alt="JUDAS">
+      <img src="assets/images/judas.webp" loading="lazy" decoding="async" width="1400" height="2087" alt="Figura Judas de la era Belentani">
       <div class="btag">LA CRONICA DE LA LLAVE DORADA</div>
     </div>
     <div class="bio-txt">
@@ -444,11 +460,11 @@
 
 <!-- ZION -->
 <section id="zion" class="sec">
-  <h1 class="sec-title rv">ZION <span>DIMENSION</span></h1>
+  <h2 class="sec-title rv">ZION <span>DIMENSION</span></h2>
   <div class="sec-sub rv">WARRIOR &amp; ANGEL // MULTIVERSE PROTOCOL</div>
   <div class="bio-row rv">
     <div class="bio-img">
-      <img src="https://files.catbox.moe/tf46wf.jpg" loading="lazy" alt="Warrior">
+      <img src="assets/images/zion-warrior.webp" loading="lazy" decoding="async" width="1400" height="1400" alt="Arquetipo Warrior de la dimensión Zion">
       <div class="btag">SYSTEM.LOG // TOTAL INTEGRATION</div>
     </div>
     <div class="bio-txt">
@@ -462,7 +478,7 @@
   </div>
   <div class="bio-row rev rv">
     <div class="bio-img">
-      <img src="https://files.catbox.moe/iobmrn.png" loading="lazy" alt="Zion">
+      <img src="assets/images/zion.webp" loading="lazy" decoding="async" width="1400" height="2102" alt="Dimensión Zion de Belentani">
       <div class="btag">PHASE S1: RED/BLUE</div>
     </div>
     <div class="bio-txt">
@@ -479,7 +495,7 @@
 
 <!-- CONCEPT -->
 <section id="concept" class="sec">
-  <h1 class="sec-title rv">THE <span>CONCEPT</span></h1>
+  <h2 class="sec-title rv">THE <span>CONCEPT</span></h2>
   <div class="sec-sub rv">Autobiografia compilada como sistema operativo</div>
   <div class="g4 rv" style="max-width:1200px;margin-bottom:56px">
     <div class="tcard">
@@ -512,7 +528,7 @@
 
 <!-- PORTAL -->
 <section id="portal" class="sec">
-  <h1 class="sec-title rv">THE <span>PORTAL</span></h1>
+  <h2 class="sec-title rv">THE <span>PORTAL</span></h2>
   <div class="sec-sub rv">CONDUCE LA NAVE // ACTIVA LAS 5 GEMAS ARQUETIPAS</div>
   <div class="g4 rv" style="max-width:1200px;grid-template-columns:1fr 1.2fr">
     <div
@@ -532,8 +548,8 @@
       <canvas id="diamC" style="width:100%;height:100%;cursor:pointer;position:absolute;inset:0"></canvas>
     </div>
     <div style="display:flex;flex-direction:column;gap:12px">
-      <div class="tcard" style="border-left:3px solid var(--gold);padding:18px;cursor:pointer" data-gem="0"
-        onclick="gemActivate(0)">
+      <div class="tcard" style="border-left:3px solid var(--gold);padding:18px;cursor:pointer" data-gem="0" role="button" tabindex="0" aria-label="Activar gema Pedro"
+        onclick="gemActivate(0)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();gemActivate(0)}">
         <div style="font-family:var(--fm);font-size:8px;color:var(--gold);letter-spacing:3px">GEMA_01 // ARQUETIPO
         </div>
         <div style="font-family:var(--fd);font-size:15px;color:#fff;letter-spacing:3px;margin:4px 0">&#x2B21; PEDRO
@@ -543,8 +559,8 @@
           <span>LA ROCA</span><span style="color:var(--gold)" id="gemStatus0">&#9675; INACTIVA</span>
         </div>
       </div>
-      <div class="tcard" style="border-left:3px solid var(--cyan);padding:18px;cursor:pointer" data-gem="1"
-        onclick="gemActivate(1)">
+      <div class="tcard" style="border-left:3px solid var(--cyan);padding:18px;cursor:pointer" data-gem="1" role="button" tabindex="0" aria-label="Activar gema Marcos"
+        onclick="gemActivate(1)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();gemActivate(1)}">
         <div style="font-family:var(--fm);font-size:8px;color:var(--cyan);letter-spacing:3px">GEMA_02 // ARQUETIPO
         </div>
         <div style="font-family:var(--fd);font-size:15px;color:#fff;letter-spacing:3px;margin:4px 0">&#x25C9; MARCOS
@@ -554,8 +570,8 @@
           <span>EL CRONISTA</span><span style="color:var(--cyan)" id="gemStatus1">&#9675; INACTIVA</span>
         </div>
       </div>
-      <div class="tcard" style="border-left:3px solid var(--purple);padding:18px;cursor:pointer" data-gem="2"
-        onclick="gemActivate(2)">
+      <div class="tcard" style="border-left:3px solid var(--purple);padding:18px;cursor:pointer" data-gem="2" role="button" tabindex="0" aria-label="Activar gema Santos"
+        onclick="gemActivate(2)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();gemActivate(2)}">
         <div style="font-family:var(--fm);font-size:8px;color:var(--purple);letter-spacing:3px">GEMA_03 // ARQUETIPO
         </div>
         <div style="font-family:var(--fd);font-size:15px;color:#fff;letter-spacing:3px;margin:4px 0">&#x232C; SANTOS
@@ -565,8 +581,8 @@
           <span>LA ANTENA</span><span style="color:var(--purple)" id="gemStatus2">&#9675; INACTIVA</span>
         </div>
       </div>
-      <div class="tcard" style="border-left:3px solid var(--blood);padding:18px;cursor:pointer" data-gem="3"
-        onclick="gemActivate(3)">
+      <div class="tcard" style="border-left:3px solid var(--blood);padding:18px;cursor:pointer" data-gem="3" role="button" tabindex="0" aria-label="Activar gema Belentani"
+        onclick="gemActivate(3)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();gemActivate(3)}">
         <div style="font-family:var(--fm);font-size:8px;color:var(--blood);letter-spacing:3px">GEMA_04 // ARQUETIPO
         </div>
         <div style="font-family:var(--fd);font-size:15px;color:#fff;letter-spacing:3px;margin:4px 0">&#x25A3;
@@ -576,8 +592,8 @@
           <span>EL ARTEFACTO</span><span style="color:var(--blood)" id="gemStatus3">&#9675; INACTIVA</span>
         </div>
       </div>
-      <div class="tcard" style="border-left:3px solid var(--human);padding:18px;cursor:pointer" data-gem="4"
-        onclick="gemActivate(4)">
+      <div class="tcard" style="border-left:3px solid var(--human);padding:18px;cursor:pointer" data-gem="4" role="button" tabindex="0" aria-label="Activar gema The Human"
+        onclick="gemActivate(4)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();gemActivate(4)}">
         <div style="font-family:var(--fm);font-size:8px;color:var(--txt);letter-spacing:3px">GEMA_05 // ARQUETIPO
         </div>
         <div style="font-family:var(--fd);font-size:15px;color:#fff;letter-spacing:3px;margin:4px 0">&#x23E3; THE
@@ -593,7 +609,7 @@
 
 <!-- GALLERY -->
 <section id="gallery" class="sec">
-  <h1 class="sec-title rv">VISUAL <span>ARCHIVE</span></h1>
+  <h2 class="sec-title rv">VISUAL <span>ARCHIVE</span></h2>
   <div class="sec-sub rv">DATA RECOVERED FROM THE COLLAPSE</div>
   <div class="gal-tabs" id="galTabs">
     <button class="gtab on" data-c="ALL">&#9673; ALL</button>
@@ -613,7 +629,7 @@
 
 <!-- AI LAB -->
 <section id="ailab" class="sec">
-  <h1 class="sec-title rv">AI <span>LAB</span></h1>
+  <h2 class="sec-title rv">AI <span>LAB</span></h2>
   <div class="sec-sub rv">HERRAMIENTAS IA EN VIVO // MOTOR OPEN-SOURCE</div>
   <div class="g4 rv">
     <div class="tcard" style="grid-column:span 2">
@@ -627,7 +643,7 @@
       <div id="aiLog"
         style="height:180px;overflow-y:auto;background:rgba(0,0,0,.5);padding:12px;margin-bottom:12px;font-family:var(--fm);font-size:11px;border:1px solid var(--glass-border)">
       </div>
-      <div style="display:flex;gap:10px"><input id="aiIn" placeholder="CMD..."
+      <div style="display:flex;gap:10px"><input id="aiIn" placeholder="CMD..." aria-label="Comando para CORE_AI"
           style="flex:1;background:transparent;border:1px solid var(--blood);color:#fff;padding:12px;font-family:var(--fm);font-size:11px;outline:none"><button
           class="tc-btn" onclick="aiSend()" style="width:auto;padding:12px 22px">SEND</button></div>
     </div>
@@ -642,7 +658,7 @@
       <div id="aiImg"
         style="height:180px;background:rgba(0,0,0,.5);margin-bottom:12px;display:flex;align-items:center;justify-content:center;border:1px solid var(--glass-border);overflow:hidden">
       </div>
-      <div style="display:flex;gap:10px"><input id="aiImgIn" placeholder="PROMPT..."
+      <div style="display:flex;gap:10px"><input id="aiImgIn" placeholder="PROMPT..." aria-label="Prompt para Vision Forge"
           style="flex:1;background:transparent;border:1px solid var(--blood);color:#fff;padding:12px;font-family:var(--fm);font-size:11px;outline:none"><button
           class="tc-btn" onclick="aiImgGen()" style="width:auto;padding:12px 22px">FORGE</button></div>
     </div>
@@ -726,7 +742,7 @@
         </div>
       </div>
       <p class="tc-desc">Analisis psico-arquetipico de tu patron de sombra, trauma y mitologia.</p>
-      <input id="psyIn" placeholder="Describe tu estado o dilema..."
+      <input id="psyIn" placeholder="Describe tu estado o dilema..." aria-label="Describe tu estado o dilema"
         style="width:100%;background:transparent;border:1px solid var(--blood);color:#fff;padding:10px;font-family:var(--fm);font-size:10px;outline:none;margin-bottom:8px">
       <button class="tc-btn" onclick="runPsycheScan()">ANALIZAR</button>
       <div id="psyResult" style="font-family:var(--fm);font-size:10px;color:var(--green);margin-top:10px"></div>
@@ -740,7 +756,7 @@
         </div>
       </div>
       <p class="tc-desc">Electronica industrial con letras que diseccionan la psique humana.</p>
-      <button class="tc-btn" onclick="window.open('https://open.spotify.com/artist/4YRxDV8wJFPHPTeXepOstw','_blank')">PLAY TRACK &#8599;</button>
+      <button class="tc-btn" onclick="window.open('https://open.spotify.com/artist/4YRxDV8wJFPHPTeXepOstw','_blank','noopener')">PLAY TRACK &#8599;</button>
     </div>
     <div class="tcard">
       <div class="tc-head">
@@ -751,7 +767,7 @@
         </div>
       </div>
       <p class="tc-desc">Fusion de dark pop y R&amp;B visceral. Una declaracion de amor en medio del caos digital.</p>
-      <button class="tc-btn" onclick="window.open('https://open.spotify.com/artist/4YRxDV8wJFPHPTeXepOstw','_blank')">PLAY TRACK &#8599;</button>
+      <button class="tc-btn" onclick="window.open('https://open.spotify.com/artist/4YRxDV8wJFPHPTeXepOstw','_blank','noopener')">PLAY TRACK &#8599;</button>
     </div>
     <div class="tcard">
       <div class="tc-head">
@@ -762,7 +778,7 @@
         </div>
       </div>
       <p class="tc-desc">Melodias llenas de soul con estructuras ritmicas cautivadoras.</p>
-      <button class="tc-btn" onclick="window.open('https://open.spotify.com/artist/4YRxDV8wJFPHPTeXepOstw','_blank')">PLAY TRACK &#8599;</button>
+      <button class="tc-btn" onclick="window.open('https://open.spotify.com/artist/4YRxDV8wJFPHPTeXepOstw','_blank','noopener')">PLAY TRACK &#8599;</button>
     </div>
     <div class="tcard">
       <div class="tc-head">
@@ -773,7 +789,7 @@
         </div>
       </div>
       <p class="tc-desc">R&amp;B alternativo. La vulnerabilidad radical como mecanismo de supervivencia.</p>
-      <button class="tc-btn" onclick="window.open('https://www.youtube.com/@belentani','_blank')">PLAY TRACK &#8599;</button>
+      <button class="tc-btn" onclick="window.open('https://www.youtube.com/@belentani','_blank','noopener')">PLAY TRACK &#8599;</button>
     </div>
     <div class="tcard">
       <div class="tc-head">
@@ -784,7 +800,7 @@
         </div>
       </div>
       <p class="tc-desc">Convierte tu prompt basico en un prompt de nivel profesional para Vision Forge.</p>
-      <input id="promptIn" placeholder="Prompt basico..."
+      <input id="promptIn" placeholder="Prompt basico..." aria-label="Prompt básico para optimizar"
         style="width:100%;background:transparent;border:1px solid var(--blood);color:#fff;padding:10px;font-family:var(--fm);font-size:10px;outline:none;margin-bottom:8px">
       <button class="tc-btn" onclick="runPromptImprover()">OPTIMIZAR</button>
       <div id="promptResult" style="font-family:var(--fm);font-size:10px;color:var(--cyan);margin-top:10px"></div>
@@ -810,7 +826,7 @@
         </div>
       </div>
       <p class="tc-desc">Escribe un simbolo de tu sueno (agua, fuego, volar, caer, luz...) y el decoder lee tu paisaje interior.</p>
-      <input id="dreamIn" placeholder="Simbolo onirico..."
+      <input id="dreamIn" placeholder="Simbolo onirico..." aria-label="Símbolo onírico a decodificar"
         style="width:100%;background:transparent;border:1px solid var(--blood);color:#fff;padding:10px;font-family:var(--fm);font-size:10px;outline:none;margin-bottom:8px">
       <button class="tc-btn" onclick="decodeDream()">DECODIFICAR</button>
       <div id="dreamResult" style="font-family:var(--fm);font-size:10px;color:var(--cyan);margin-top:10px"></div>
@@ -824,7 +840,7 @@
         </div>
       </div>
       <p class="tc-desc">Genera una cancion al estilo Belentani: dark pop, R&amp;B, soul o electronica industrial.</p>
-      <select id="songGenre" style="width:100%;background:rgba(0,0,0,0.6);border:1px solid var(--blood);color:#fff;padding:10px;font-family:var(--fm);font-size:10px;outline:none;margin-bottom:8px">
+      <select id="songGenre" aria-label="Género de la canción" style="width:100%;background:rgba(0,0,0,0.6);border:1px solid var(--blood);color:#fff;padding:10px;font-family:var(--fm);font-size:10px;outline:none;margin-bottom:8px">
         <option value="darkpop">DARK POP</option>
         <option value="rnb">R&amp;B</option>
         <option value="electronic">ELECTRONICA INDUSTRIAL</option>
@@ -838,7 +854,7 @@
 
 <!-- STUDIO -->
 <section id="studio" class="sec">
-  <h1 class="sec-title rv">STUDIO <span>LAB</span></h1>
+  <h2 class="sec-title rv">STUDIO <span>LAB</span></h2>
   <div class="sec-sub rv">120 MODULOS IA // 6 CATEGORIAS</div>
   <div class="stabs" id="stabs">
     <button class="stab on" data-c="*">&#9673; TODOS · 120</button>
@@ -854,28 +870,30 @@
 
 <!-- CHALLENGES -->
 <section id="challenges" class="sec">
-  <h1 class="sec-title rv">DESA<span>FÍOS</span></h1>
+  <h2 class="sec-title rv">DESA<span>FÍOS</span></h2>
   <div class="sec-sub rv">PROTOCOLO DE ASCENSO — COMPLETA LAS MISIONES</div>
   <div class="g4 rv" id="chGrid"></div>
 </section>
 
 <!-- CONTACT -->
 <section id="contact" class="sec">
-  <h1 class="sec-title rv">CONTACT <span>PROTOCOL</span></h1>
+  <h2 class="sec-title rv">CONTACT <span>PROTOCOL</span></h2>
   <div class="sec-sub rv">ESTABLISH A DIRECT CONNECTION WITH THE MAINFRAME</div>
   <div style="text-align:center;max-width:800px;margin-bottom:44px" class="rv">
     <p style="color:var(--txt-dim);font-size:16px;line-height:2">DIRECT TRANSMISSION. Send encrypted data packets
       directly to the central core.</p>
-    <a href="javascript:void(0)" onclick="document.getElementById('contactForm')&amp;&amp;document.getElementById('contactForm').scrollIntoView({behavior:'smooth'})"
+    <a href="#contactForm" onclick="document.getElementById('contactForm')&amp;&amp;document.getElementById('contactForm').scrollIntoView({behavior:'smooth'});return false;"
       style="font-family:var(--fm);color:var(--blood);font-size:13px;letter-spacing:2px;text-decoration:none;display:inline-block;margin-top:16px;text-shadow:0 0 10px var(--blood-glow)">&gt; OPEN TRANSMISSION PORT</a>
   </div>
   <form class="glass glass-cut rv"
     style="max-width:620px;width:100%;display:flex;flex-direction:column;gap:20px;padding:40px"
     id="contactForm"
-    onsubmit="event.preventDefault();this.innerHTML='<p style=&quot;text-align:center;font-family:var(--fm);color:var(--green);letter-spacing:3px&quot;>&gt; PAYLOAD TRANSMITIDO AL CORE &#10003;</p>'">
-    <input type="text" placeholder="IDENTIDAD" required
+    action="mailto:belentani7studio@proton.me" method="post" enctype="text/plain">
+    <p style="font-family:var(--fm);font-size:9px;letter-spacing:2px;color:var(--txt-dim);margin:0">
+      [ EL ENVÍO ABRE TU CLIENTE DE CORREO — NO HAY SERVIDOR INTERMEDIO ]</p>
+    <input type="text" name="identidad" placeholder="IDENTIDAD" required aria-label="Tu identidad o nombre"
       style="background:transparent;border:1px solid var(--blood);color:#fff;padding:16px;font-family:var(--fu);outline:none">
-    <textarea placeholder="PAYLOAD" required
+    <textarea name="payload" placeholder="PAYLOAD" required aria-label="Tu mensaje"
       style="background:transparent;border:1px solid var(--blood);color:#fff;padding:16px;min-height:110px;font-family:var(--fu);outline:none;resize:vertical"></textarea>
     <button class="cta" type="submit" style="animation:none">[ TRANSMIT ]</button>
   </form>
@@ -916,7 +934,7 @@
 
 <!-- AI CHAT WIDGET -->
 <div class="aichat" id="aiChat">
-  <div class="ch-head" onclick="document.getElementById('aiChat').classList.toggle('min')">
+  <div class="ch-head" role="button" tabindex="0" aria-label="Minimizar o expandir el chat CORE_AI" onclick="document.getElementById('aiChat').classList.toggle('min')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();document.getElementById('aiChat').classList.toggle('min')}">
     <div class="ch-title">
       <div class="live-dot"></div>CORE_AI // HYPER_INTELLIGENCE
     </div>
@@ -929,7 +947,7 @@
         que despiertan arquetipos. Otras que destruyen sistemas.</em>
     </div>
   </div>
-  <div class="ch-input"><input type="text" class="ch-in" id="chIn"
+  <div class="ch-input"><input type="text" class="ch-in" id="chIn" aria-label="Comando o frecuencia para CORE_AI"
       placeholder="Escribe un comando o frecuencia..."><button class="ch-send" onclick="chSend()">SEND</button></div>
 </div>
 
@@ -941,7 +959,7 @@
     </h3>
     <div id="modC" style="font-family:var(--fm);font-size:9px;color:var(--blood);letter-spacing:4px;margin-bottom:20px">
     </div>
-    <textarea id="modIn" placeholder="Directiva para el modulo..."
+    <textarea id="modIn" placeholder="Directiva para el modulo..." aria-label="Directiva para el módulo"
       style="width:100%;background:rgba(0,0,0,.6);border:1px solid var(--glass-border);color:#fff;font-family:var(--fu);padding:16px;min-height:90px;outline:none;resize:vertical"></textarea>
     <button onclick="runMod()"
       style="margin-top:16px;font-family:var(--fd);letter-spacing:4px;background:var(--blood-dim);color:#fff;border:1px solid var(--blood);padding:14px 34px;cursor:pointer;transition:all .3s;font-size:12px">&#9654;
@@ -959,24 +977,28 @@
   <div class="tline">&gt; Galactic core geometry stable.</div>
   <div class="tline">&gt; Aetheric frequencies locked at 432Hz.</div>
   <div class="tline">&gt; Type 'help' for commands. Awaiting agent input_</div>
-  <div class="tin"><span style="color:var(--blood)">&#937;&gt;</span><input id="termIn" placeholder="command..."
+  <div class="tin"><span style="color:var(--blood)">&#937;&gt;</span><input id="termIn" placeholder="command..." aria-label="Comando de terminal"
       onkeydown="if(event.key==='Enter')termCmd()"></div>
 </div>
 
 <!-- Modular JS -->
-<script src="js/01-boot.js"></script>
-<script src="js/02-scroll.js"></script>
-<script src="js/03-webgl.js"></script>
-<script src="js/04-matrix.js"></script>
-<script src="js/05-audio.js"></script>
-<script src="js/06-ai.js"></script>
-<script src="js/07-portal.js"></script>
-<script src="js/08-content.js"></script>
-<script src="js/09-terminal.js"></script>
-<script src="js/10-v13.js"></script>
-<script src="js/11-unified.js"></script>
-<script src="js/12-hero-media.js"></script>
-<script src="js/sw-register.js"></script>
+<script defer src="js/01-boot.js"></script>
+<script defer src="js/02-scroll.js"></script>
+<script defer src="js/03-webgl.js"></script>
+<script defer src="js/04-matrix.js"></script>
+<script defer src="js/05-audio.js"></script>
+<script defer src="js/06-ai.js"></script>
+<script defer src="js/07-portal.js"></script>
+<script defer src="js/08-content.js"></script>
+<script defer src="js/09-terminal.js"></script>
+<script defer src="js/10-v13.js"></script>
+<script defer src="js/11-unified.js"></script>
+<script defer src="js/12-hero-media.js"></script>
+<script defer src="site/js/omega-next.js"></script>
+<script defer src="site/js/omega-supreme.js"></script>
+<script defer src="site/js/features/lore-panel.js"></script>
+<script defer src="site/js/features/saas-console.js"></script>
+<script defer src="js/sw-register.js"></script>
 </body>
 
 </html>

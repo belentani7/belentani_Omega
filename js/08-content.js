@@ -293,14 +293,14 @@ function addRecentMod(n,c){
         total++;
       });
     });
-    if(total===0)g.innerHTML='<div style="text-align:center;padding:40px;color:var(--accent);font-family:var(--fm);font-size:12px;letter-spacing:2px">NO MODULES FOUND // '+searchQuery.toUpperCase()+'</div>';
+    if(total===0)g.innerHTML='<div style="text-align:center;padding:40px;color:var(--accent);font-family:var(--fm);font-size:12px;letter-spacing:2px">NO MODULES FOUND // '+esc(searchQuery).toUpperCase()+'</div>';
     observeRV();
   }
   function renderRecent(){
     if(!recentG)return;
     var r=getRecentMods();
     if(!r.length){recentG.innerHTML='';return}
-    recentG.innerHTML=r.map(function(x){return'<div class="tcard rv mcard-recent" style="padding:12px;cursor:pointer" data-cat="'+x.c+'" data-name="'+x.n+'"><div class="tc-name" style="font-size:13px">'+x.n+'</div><div class="tc-id">'+x.c+'</div></div>'}).join('');
+    recentG.innerHTML=r.map(function(x){return'<div class="tcard rv mcard-recent" style="padding:12px;cursor:pointer" data-cat="'+esc(x.c)+'" data-name="'+esc(x.n)+'"><div class="tc-name" style="font-size:13px">'+esc(x.n)+'</div><div class="tc-id">'+esc(x.c)+'</div></div>'}).join('');
     observeRV();
   }
   render('*');renderRecent();renderCountBadges();
@@ -363,10 +363,19 @@ function openMod(cat,name,catKey){
   ov.classList.add('on');
 }
 function closeMod(){document.getElementById('modOv').classList.remove('on')}
+function esc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+// Local-first module engine: deterministic, transparent, no network egress.
+function poll(prompt,kind){
+  return new Promise(function(resolve){
+    var seeds=['el espejo no absuelve','la llave es metal','la deuda sigue abierta','toda version guarda una grieta','el beso deja una deuda en la memoria'];
+    var h=0;for(var i=0;i<prompt.length;i++)h=(h*31+prompt.charCodeAt(i))>>>0;
+    resolve('> [MODO LOCAL · sin red] '+kind+'\n> '+seeds[h%seeds.length]+'\n> Directiva recibida: '+prompt.slice(0,240));
+  });
+}
 function runMod(){if(!modA)return;var inp=document.getElementById('modIn').value.trim(),out=document.getElementById('modOut');
   out.textContent='> PROCESANDO '+modA.name+'...';
   var cfg=CSYS[modA.cat]||['txt','Modulo Belentani.'];
-  if(cfg[0]==='img'){out.innerHTML='<img src="https://image.pollinations.ai/prompt/'+encodeURIComponent('belentani judas era, '+modA.name+', '+inp)+'?width=800&height=450&nologo=true&seed='+Math.floor(Math.random()*10000)+'" style="width:100%;border:1px solid var(--blood)" alt="Output">'}
+  if(cfg[0]==='img'){out.innerHTML='<p style="font-size:9px;color:var(--txt-dim);font-family:var(--fm);margin-bottom:8px">[ SERVICIO EXTERNO · pollinations.ai — tu texto sale del dispositivo ]</p><img loading="lazy" src="https://image.pollinations.ai/prompt/'+encodeURIComponent('belentani judas era, '+modA.name+', '+inp)+'?width=800&height=450&nologo=true&seed='+Math.floor(Math.random()*10000)+'" style="width:100%;border:1px solid var(--blood)" alt="Render generado por IA para el modulo '+esc(modA.name)+'">'}
   else{poll(modA.name+': '+inp,cfg[1]).then(function(r){out.textContent=r})}}
 
 // ═══════════════════════════════════════════════════════════════

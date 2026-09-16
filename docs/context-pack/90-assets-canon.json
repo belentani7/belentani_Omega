@@ -1,0 +1,481 @@
+{
+  "generado": "2026-09-15T22:32:29+00:00",
+  "canonicos": 59,
+  "duplicados_movidos": 0,
+  "mb_canonicos": 39.36,
+  "mb_ahorrados": 0.0,
+  "items": [
+    {
+      "archivo": "assets/imports/image-ad54b7fb.png",
+      "sha1": "ad54b7fb66227ab273df38d96b52fceaf13ea872",
+      "bytes": 10437269,
+      "ext": ".png",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/image-51a2eac6.jpg",
+      "sha1": "51a2eac6b9382d1fff71e380a4dfb586daf79cdd",
+      "bytes": 5651345,
+      "ext": ".jpg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/image-d1cfa06b.png",
+      "sha1": "d1cfa06b1315424f5d33dfd6142b9a94da6fcdda",
+      "bytes": 5625472,
+      "ext": ".png",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/image-e60af380.jpg",
+      "sha1": "e60af380599af1fa293f677b90abaab21b859e1a",
+      "bytes": 4197488,
+      "ext": ".jpg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/image-ea7b8e11.jpg",
+      "sha1": "ea7b8e1140cdfc7329519beb7506214ec230556f",
+      "bytes": 3413169,
+      "ext": ".jpg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/image-ff5f9aa2.jpg",
+      "sha1": "ff5f9aa22f2a3a84ef793dae6e5500b9b86b2d5c",
+      "bytes": 3155021,
+      "ext": ".jpg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/image-f5887cb3.jpg",
+      "sha1": "f5887cb311ba1eb65c1adccdfc9e3b6c473af4bc",
+      "bytes": 2110871,
+      "ext": ".jpg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/image-9d11a262.jpg",
+      "sha1": "9d11a2626f7297f85eb2985ddb077717664de366",
+      "bytes": 1978315,
+      "ext": ".jpg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/image-89e77829.jpg",
+      "sha1": "89e77829ea94dc20e5502dbfd6b17fdee2ded911",
+      "bytes": 1768057,
+      "ext": ".jpg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/image-5780fa4c.png",
+      "sha1": "5780fa4c3e2cc55bd17275861c514e440e0fbcf7",
+      "bytes": 666352,
+      "ext": ".png",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/image-2ecbb4d8.jpg",
+      "sha1": "2ecbb4d8522017562bc0596615950d12dbfd9097",
+      "bytes": 476900,
+      "ext": ".jpg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/028__z.ai-00a624be.webp",
+      "sha1": "00a624beabd56602a86d6da2fc58da476f967fe4",
+      "bytes": 242042,
+      "ext": ".webp",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/028__z.ai-2e5ee623.webp",
+      "sha1": "2e5ee623c793ce2bc6b5ea4f183f4d6ec40ee836",
+      "bytes": 201458,
+      "ext": ".webp",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/028__z.ai-9dee233d.webp",
+      "sha1": "9dee233de8b8ca9ba4f78f1015d376ad45931b3f",
+      "bytes": 157906,
+      "ext": ".webp",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/image-adb46027.png",
+      "sha1": "adb46027cfd68435bd304c300299b11ea939ec3f",
+      "bytes": 149878,
+      "ext": ".png",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/028__z.ai-173546e0.webp",
+      "sha1": "173546e095fe7f2fd97664e88c32664bbe482094",
+      "bytes": 130520,
+      "ext": ".webp",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/inicio_1-d3bd8f29.png",
+      "sha1": "d3bd8f29a57b44732f9b3af2ede6dffc82acba95",
+      "bytes": 117152,
+      "ext": ".png",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/028__z.ai-7efaab18.webp",
+      "sha1": "7efaab1861fe8394296a0fbe1f93ac3111d4365b",
+      "bytes": 93326,
+      "ext": ".webp",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/inicio_1-59146175.jpg",
+      "sha1": "591461753dab93c95b9ed647dd1aaeb74edcf348",
+      "bytes": 83549,
+      "ext": ".jpg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/omega-bfa627a4.png",
+      "sha1": "bfa627a4b07d514371b8d39bf31e55b90a5683cc",
+      "bytes": 67767,
+      "ext": ".png",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/omega-689fa734.png",
+      "sha1": "689fa7347dd0b8746a568e27ab647bd3e0691de2",
+      "bytes": 59524,
+      "ext": ".png",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/image-63d952fe.png",
+      "sha1": "63d952fe1474c1d55f765dde4709b10f28ca227b",
+      "bytes": 58935,
+      "ext": ".png",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/noiacore-681b86a5.jpg",
+      "sha1": "681b86a52a2562907dc80ecc675571bf5adae13d",
+      "bytes": 43871,
+      "ext": ".jpg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/noiacore-4d7f79dd.jpg",
+      "sha1": "4d7f79dd5abbd960943dbc4d5d17434a98c1711c",
+      "bytes": 41737,
+      "ext": ".jpg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/image-40922c01.svg",
+      "sha1": "40922c0167d147f92a17257f18caa59ed90c5926",
+      "bytes": 39643,
+      "ext": ".svg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/noiacore-6ef00ab1.jpg",
+      "sha1": "6ef00ab1fcceb4eed4e3b7860e3edfb77ef6a92e",
+      "bytes": 39181,
+      "ext": ".jpg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/noiacore-fac65cb9.jpg",
+      "sha1": "fac65cb9f5cd56f6fcea4ba39e65f7016f37a410",
+      "bytes": 37780,
+      "ext": ".jpg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/noiacore-ab89f9ef.jpg",
+      "sha1": "ab89f9ef4cd702be9289d017768f2bb546e30f48",
+      "bytes": 37703,
+      "ext": ".jpg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/noiacore-1c7162b0.jpg",
+      "sha1": "1c7162b000488f05e4e0847f0b9848ac4a723e9a",
+      "bytes": 27445,
+      "ext": ".jpg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/image-f1ac763c.png",
+      "sha1": "f1ac763c81394652321b52d35dc43a5a86e3d3c5",
+      "bytes": 26647,
+      "ext": ".png",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/inicio_1-92a74b8d.jpg",
+      "sha1": "92a74b8d46bb8ad71e9970db42334f1855587f6f",
+      "bytes": 24827,
+      "ext": ".jpg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/inicio_1-f54086b1.jpg",
+      "sha1": "f54086b10b57aa94fd64c94a56c6fc53f9291a8f",
+      "bytes": 15288,
+      "ext": ".jpg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/028__z.ai-ee68eeda.svg",
+      "sha1": "ee68eedacc00715e4e43f44bb98c5b07dd1f4463",
+      "bytes": 11037,
+      "ext": ".svg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/judas-c7747d02.svg",
+      "sha1": "c7747d0281f2576d92fd5aa1242074affb2d3877",
+      "bytes": 9711,
+      "ext": ".svg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/inicio_1-1b910b0c.jpg",
+      "sha1": "1b910b0cf544fcdd86bd98dd3054e2a029f74a70",
+      "bytes": 7640,
+      "ext": ".jpg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/judas-a944a28c.svg",
+      "sha1": "a944a28c5aae95b5b1f340177ffe02dc04da9130",
+      "bytes": 7027,
+      "ext": ".svg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/inicio_1-e7c6d846.jpg",
+      "sha1": "e7c6d846ab375d8dff15626b1c14ae7800e1fe9c",
+      "bytes": 5631,
+      "ext": ".jpg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/028__z.ai-6a21def0.svg",
+      "sha1": "6a21def0f674e6ed73f68bc4e691a010a9d46f7b",
+      "bytes": 5402,
+      "ext": ".svg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/inicio_1-08c4d4af.jpg",
+      "sha1": "08c4d4afbc443ef651577f3dee2ed1ff63c0c502",
+      "bytes": 5154,
+      "ext": ".jpg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/judas-d17818e4.svg",
+      "sha1": "d17818e405cca4987dc705c545b48e4d9da98c80",
+      "bytes": 4835,
+      "ext": ".svg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/028__z.ai-9e80855f.jpg",
+      "sha1": "9e80855f2ca4bb45a79617bc0b6feaae4317a9ee",
+      "bytes": 4336,
+      "ext": ".jpg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/Judas-ca8df73b.svg",
+      "sha1": "ca8df73bb5aa2c5ed28441e6ccd8caa84cdbfb5e",
+      "bytes": 3474,
+      "ext": ".svg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/Judas-81f7bbea.webp",
+      "sha1": "81f7bbea76ce90b4263337040b94e04ff368bb3f",
+      "bytes": 3152,
+      "ext": ".webp",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/Judas-3cc3320a.svg",
+      "sha1": "3cc3320a894a4783d939d40bfbd6133575c358aa",
+      "bytes": 2683,
+      "ext": ".svg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/Judas-6bef5ecf.svg",
+      "sha1": "6bef5ecfc40c3bd18bc8ace9bc4524994c8c35f0",
+      "bytes": 2606,
+      "ext": ".svg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/Judas-b0d0b7c7.svg",
+      "sha1": "b0d0b7c758b6b5ff8847d0b522066b9113f3e63c",
+      "bytes": 2549,
+      "ext": ".svg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/Judas-0ec13e32.svg",
+      "sha1": "0ec13e32d3e9951d2920d2f242bba50b35db6ce9",
+      "bytes": 2234,
+      "ext": ".svg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/Judas-9a39afd3.svg",
+      "sha1": "9a39afd36bc53d8b865325b256d33e82894f2b07",
+      "bytes": 2056,
+      "ext": ".svg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/Judas-a1a7cffc.svg",
+      "sha1": "a1a7cffc7ea370ebe93fe8acd2eb5feeedfd4762",
+      "bytes": 1518,
+      "ext": ".svg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/Judas-91d93a63.svg",
+      "sha1": "91d93a63abb3ec17cb2eb179544ae6b421861d39",
+      "bytes": 1515,
+      "ext": ".svg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/Judas-8347f275.svg",
+      "sha1": "8347f275740620bf9cf2dbec0dba2488b46ff049",
+      "bytes": 1511,
+      "ext": ".svg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/Judas-96abd110.svg",
+      "sha1": "96abd11081ff4bfa3d1947222601c49038952aaa",
+      "bytes": 1288,
+      "ext": ".svg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/Judas-f571af39.svg",
+      "sha1": "f571af395e62da71c31a2a977970283eab722ef3",
+      "bytes": 1249,
+      "ext": ".svg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/Judas-cc7c8ece.svg",
+      "sha1": "cc7c8ece6cb2bcbcbca6c1c12c11772de27c5d90",
+      "bytes": 1220,
+      "ext": ".svg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/Judas-e6c93b4a.svg",
+      "sha1": "e6c93b4a0dc30a5a75fd40b568c1d78277390fb8",
+      "bytes": 1203,
+      "ext": ".svg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/Judas-372baa12.svg",
+      "sha1": "372baa122aa6aeea575f3e6ce471053b67524578",
+      "bytes": 1102,
+      "ext": ".svg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/Judas-032b641d.webp",
+      "sha1": "032b641d40f02e043fc40557d330ae5177a63f4f",
+      "bytes": 1100,
+      "ext": ".webp",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/Judas-ca19479c.svg",
+      "sha1": "ca19479c9e95bfac27d162ec0ec31ee0434b8c33",
+      "bytes": 1093,
+      "ext": ".svg",
+      "copias": 1,
+      "duplicados": []
+    },
+    {
+      "archivo": "assets/imports/omega-e536e6f3.png",
+      "sha1": "e536e6f3859f9546f16204803195153ab17ea201",
+      "bytes": 1054,
+      "ext": ".png",
+      "copias": 1,
+      "duplicados": []
+    }
+  ]
+}

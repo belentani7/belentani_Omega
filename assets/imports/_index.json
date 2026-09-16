@@ -1,0 +1,1322 @@
+{
+  "generado": "2026-09-15T23:27:04+00:00",
+  "html_origen": 3,
+  "assets_extraidos": 36,
+  "kb_total": 115854.9,
+  "resultados": [
+    {
+      "origen": "G:\\Mi unidad\\todo_mi_drive\\fff\\BELENTANI-WEB\\omega-core-_7_19_2026-9_02_10-PM_.html",
+      "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_",
+      "extraidos": 12,
+      "saltados": 0,
+      "kb_total": 38621.0,
+      "ficheros": [
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-001.png",
+          "kb": 650.7,
+          "mime": "image/png"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-002.jpg",
+          "kb": 2061.4,
+          "mime": "image/jpeg"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-003.jpg",
+          "kb": 1726.6,
+          "mime": "image/jpeg"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-004.jpg",
+          "kb": 5518.9,
+          "mime": "image/jpeg"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-005.jpg",
+          "kb": 3333.2,
+          "mime": "image/jpeg"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-006.png",
+          "kb": 66.2,
+          "mime": "image/png"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-007.png",
+          "kb": 10192.6,
+          "mime": "image/png"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-008.jpg",
+          "kb": 1931.9,
+          "mime": "image/jpeg"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-009.jpg",
+          "kb": 465.7,
+          "mime": "image/jpeg"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-010.jpg",
+          "kb": 3081.1,
+          "mime": "image/jpeg"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-011.png",
+          "kb": 5493.6,
+          "mime": "image/png"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-012.jpg",
+          "kb": 4099.1,
+          "mime": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "origen": "G:\\Mi unidad\\todo_mi_drive\\fff\\BELENTANI-WEB\\BELENTANI___JUDAS_ERA_-_OMEGA_CORE__7_19_2026_9_02_10_PM_.html",
+      "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_",
+      "extraidos": 12,
+      "saltados": 0,
+      "kb_total": 38621.0,
+      "ficheros": [
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-001.png",
+          "kb": 650.7,
+          "mime": "image/png"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-002.jpg",
+          "kb": 2061.4,
+          "mime": "image/jpeg"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-003.jpg",
+          "kb": 1726.6,
+          "mime": "image/jpeg"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-004.jpg",
+          "kb": 5518.9,
+          "mime": "image/jpeg"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-005.jpg",
+          "kb": 3333.2,
+          "mime": "image/jpeg"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-006.png",
+          "kb": 66.2,
+          "mime": "image/png"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-007.png",
+          "kb": 10192.6,
+          "mime": "image/png"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-008.jpg",
+          "kb": 1931.9,
+          "mime": "image/jpeg"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-009.jpg",
+          "kb": 465.7,
+          "mime": "image/jpeg"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-010.jpg",
+          "kb": 3081.1,
+          "mime": "image/jpeg"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-011.png",
+          "kb": 5493.6,
+          "mime": "image/png"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-012.jpg",
+          "kb": 4099.1,
+          "mime": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "origen": "G:\\Mi unidad\\todo_mi_drive\\fff\\BELENTANI-WEB\\BELENTANI___JUDAS_ERA_-_OMEGA_CORE__7_20_2026_3_42_11_AM_.html",
+      "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_",
+      "extraidos": 12,
+      "saltados": 0,
+      "kb_total": 38612.9,
+      "ficheros": [
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-001.png",
+          "kb": 650.7,
+          "mime": "image/png"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-002.jpg",
+          "kb": 2061.4,
+          "mime": "image/jpeg"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-003.jpg",
+          "kb": 1726.6,
+          "mime": "image/jpeg"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-004.jpg",
+          "kb": 5518.9,
+          "mime": "image/jpeg"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-005.jpg",
+          "kb": 3333.2,
+          "mime": "image/jpeg"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-006.png",
+          "kb": 58.1,
+          "mime": "image/png"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-007.png",
+          "kb": 10192.6,
+          "mime": "image/png"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-008.jpg",
+          "kb": 1931.9,
+          "mime": "image/jpeg"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-009.jpg",
+          "kb": 465.7,
+          "mime": "image/jpeg"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-010.jpg",
+          "kb": 3081.1,
+          "mime": "image/jpeg"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-011.png",
+          "kb": 5493.6,
+          "mime": "image/png"
+        },
+        {
+          "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-012.jpg",
+          "kb": 4099.1,
+          "mime": "image/jpeg"
+        }
+      ]
+    }
+  ],
+  "lotes": [
+    {
+      "generado": "2026-09-15T22:19:05+00:00",
+      "html_origen": 1,
+      "assets_extraidos": 8,
+      "kb_total": 363.8,
+      "resultados": [
+        {
+          "origen": "C:\\Users\\USER\\Downloads\\NOIACORE\\Judas Experience ｜ BuildAI (7_26_2026 5：12：55 AM).html",
+          "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\judas-experience-buildai-7_26_2026-5-12-55-am",
+          "extraidos": 8,
+          "saltados": 0,
+          "kb_total": 363.8,
+          "ficheros": [
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\judas-experience-buildai-7_26_2026-5-12-55-am\\image-001.png",
+              "kb": 146.4,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\judas-experience-buildai-7_26_2026-5-12-55-am\\font-002.woff2",
+              "kb": 35.0,
+              "mime": "font/woff2"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\judas-experience-buildai-7_26_2026-5-12-55-am\\image-003.svg",
+              "kb": 38.7,
+              "mime": "image/svg+xml"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\judas-experience-buildai-7_26_2026-5-12-55-am\\font-004.woff2",
+              "kb": 21.7,
+              "mime": "font/woff2"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\judas-experience-buildai-7_26_2026-5-12-55-am\\font-005.woff2",
+              "kb": 18.2,
+              "mime": "font/woff2"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\judas-experience-buildai-7_26_2026-5-12-55-am\\font-006.woff2",
+              "kb": 47.1,
+              "mime": "font/woff2"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\judas-experience-buildai-7_26_2026-5-12-55-am\\image-007.png",
+              "kb": 26.0,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\judas-experience-buildai-7_26_2026-5-12-55-am\\font-008.woff2",
+              "kb": 30.7,
+              "mime": "font/woff2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "generado": "2026-09-15T22:19:19+00:00",
+      "html_origen": 1,
+      "assets_extraidos": 13,
+      "kb_total": 38643.1,
+      "resultados": [
+        {
+          "origen": "G:\\Mi unidad\\todo_mi_drive\\fff\\BELENTANI-WEB\\omega-core-_7_23_2026-9_31_47-PM_.html",
+          "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_",
+          "extraidos": 13,
+          "saltados": 0,
+          "kb_total": 38643.1,
+          "ficheros": [
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\font-001.woff2",
+              "kb": 30.7,
+              "mime": "font/woff2"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-002.png",
+              "kb": 650.7,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-003.jpg",
+              "kb": 2061.4,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-004.jpg",
+              "kb": 1726.6,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-005.jpg",
+              "kb": 5518.9,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-006.jpg",
+              "kb": 3333.2,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-007.png",
+              "kb": 57.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-008.png",
+              "kb": 10192.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-009.jpg",
+              "kb": 1931.9,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-010.jpg",
+              "kb": 465.7,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-011.jpg",
+              "kb": 3081.1,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-012.png",
+              "kb": 5493.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-013.jpg",
+              "kb": 4099.1,
+              "mime": "image/jpeg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "generado": "2026-09-15T22:40:08+00:00",
+      "html_origen": 1,
+      "assets_extraidos": 4,
+      "kb_total": 232.8,
+      "resultados": [
+        {
+          "origen": "C:\\Users\\USER\\Downloads\\NOIACORE\\Judas Experience ｜ BuildAI (7_26_2026 5：12：55 AM).html",
+          "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\judas-experience-buildai-7_26_2026-5-12-55-am",
+          "extraidos": 4,
+          "saltados": 7,
+          "kb_total": 232.8,
+          "ficheros": [
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\judas-experience-buildai-7_26_2026-5-12-55-am\\image-001.png",
+              "kb": 146.4,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\judas-experience-buildai-7_26_2026-5-12-55-am\\image-002.svg",
+              "kb": 38.7,
+              "mime": "image/svg+xml"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\judas-experience-buildai-7_26_2026-5-12-55-am\\font-003.woff2",
+              "kb": 21.7,
+              "mime": "font/woff2"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\judas-experience-buildai-7_26_2026-5-12-55-am\\image-004.png",
+              "kb": 26.0,
+              "mime": "image/png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "generado": "2026-09-15T22:40:21+00:00",
+      "html_origen": 1,
+      "assets_extraidos": 14,
+      "kb_total": 38657.2,
+      "resultados": [
+        {
+          "origen": "G:\\Mi unidad\\todo_mi_drive\\fff\\BELENTANI-WEB\\BELENTANI___JUDAS_ERA_-_OMEGA_CORE__7_23_2026_9_31_47_PM_.html",
+          "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_23_2026_9_31_47_pm_",
+          "extraidos": 14,
+          "saltados": 0,
+          "kb_total": 38657.2,
+          "ficheros": [
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_23_2026_9_31_47_pm_\\font-001.woff2",
+              "kb": 14.1,
+              "mime": "font/woff2"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_23_2026_9_31_47_pm_\\font-002.woff2",
+              "kb": 30.7,
+              "mime": "font/woff2"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_23_2026_9_31_47_pm_\\image-003.png",
+              "kb": 650.7,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_23_2026_9_31_47_pm_\\image-004.jpg",
+              "kb": 2061.4,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_23_2026_9_31_47_pm_\\image-005.jpg",
+              "kb": 1726.6,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_23_2026_9_31_47_pm_\\image-006.jpg",
+              "kb": 5518.9,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_23_2026_9_31_47_pm_\\image-007.jpg",
+              "kb": 3333.2,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_23_2026_9_31_47_pm_\\image-008.png",
+              "kb": 57.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_23_2026_9_31_47_pm_\\image-009.png",
+              "kb": 10192.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_23_2026_9_31_47_pm_\\image-010.jpg",
+              "kb": 1931.9,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_23_2026_9_31_47_pm_\\image-011.jpg",
+              "kb": 465.7,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_23_2026_9_31_47_pm_\\image-012.jpg",
+              "kb": 3081.1,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_23_2026_9_31_47_pm_\\image-013.png",
+              "kb": 5493.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_23_2026_9_31_47_pm_\\image-014.jpg",
+              "kb": 4099.1,
+              "mime": "image/jpeg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "generado": "2026-09-15T22:40:59+00:00",
+      "html_origen": 8,
+      "assets_extraidos": 19,
+      "kb_total": 1819.7,
+      "resultados": [
+        {
+          "origen": "C:\\Users\\USER\\Downloads\\NOIACORE\\Judas Experience ｜ BuildAI (7_26_2026 5：12：55 AM).html",
+          "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\judas-experience-buildai-7_26_2026-5-12-55-am",
+          "extraidos": 2,
+          "saltados": 9,
+          "kb_total": 61.0,
+          "ficheros": [
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\judas-experience-buildai-7_26_2026-5-12-55-am\\font-001.woff2",
+              "kb": 35.0,
+              "mime": "font/woff2"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\judas-experience-buildai-7_26_2026-5-12-55-am\\image-002.png",
+              "kb": 26.0,
+              "mime": "image/png"
+            }
+          ]
+        },
+        {
+          "origen": "C:\\Users\\USER\\Downloads\\NOIACORE\\belentani_omega_30k_1.html",
+          "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani_omega_30k_1",
+          "extraidos": 0,
+          "saltados": 0,
+          "kb_total": 0.0,
+          "ficheros": []
+        },
+        {
+          "origen": "C:\\Users\\USER\\Downloads\\NOIACORE\\028__Z.ai - Advanced AI Chatbot & Agent powered by GLM-5.2 (8_8_2026 8：49：09 AM).html",
+          "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\028__z.ai---advanced-ai-chatbot-agent-powered-by-glm-5.2-8_8",
+          "extraidos": 6,
+          "saltados": 0,
+          "kb_total": 970.9,
+          "ficheros": [
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\028__z.ai---advanced-ai-chatbot-agent-powered-by-glm-5.2-8_8\\font-001.ttf",
+              "kb": 165.0,
+              "mime": "font/ttf"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\028__z.ai---advanced-ai-chatbot-agent-powered-by-glm-5.2-8_8\\image-002.webp",
+              "kb": 127.5,
+              "mime": "image/webp"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\028__z.ai---advanced-ai-chatbot-agent-powered-by-glm-5.2-8_8\\image-003.webp",
+              "kb": 196.7,
+              "mime": "image/webp"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\028__z.ai---advanced-ai-chatbot-agent-powered-by-glm-5.2-8_8\\image-004.webp",
+              "kb": 154.2,
+              "mime": "image/webp"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\028__z.ai---advanced-ai-chatbot-agent-powered-by-glm-5.2-8_8\\image-005.webp",
+              "kb": 236.4,
+              "mime": "image/webp"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\028__z.ai---advanced-ai-chatbot-agent-powered-by-glm-5.2-8_8\\image-006.webp",
+              "kb": 91.1,
+              "mime": "image/webp"
+            }
+          ]
+        },
+        {
+          "origen": "C:\\Users\\USER\\Downloads\\NOIACORE\\NoiaCore Diagnostic Tool - DeepSeek_1.html",
+          "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\noiacore-diagnostic-tool---deepseek_1",
+          "extraidos": 0,
+          "saltados": 0,
+          "kb_total": 0.0,
+          "ficheros": []
+        },
+        {
+          "origen": "C:\\Users\\USER\\Downloads\\NOIACORE\\index_12_1.html",
+          "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\index_12_1",
+          "extraidos": 5,
+          "saltados": 0,
+          "kb_total": 222.7,
+          "ficheros": [
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\index_12_1\\font-001.woff2",
+              "kb": 79.6,
+              "mime": "font/woff2"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\index_12_1\\font-002.woff2",
+              "kb": 65.7,
+              "mime": "font/woff2"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\index_12_1\\font-003.woff2",
+              "kb": 17.3,
+              "mime": "font/woff2"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\index_12_1\\font-004.woff2",
+              "kb": 29.4,
+              "mime": "font/woff2"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\index_12_1\\font-005.woff2",
+              "kb": 30.7,
+              "mime": "font/woff2"
+            }
+          ]
+        },
+        {
+          "origen": "C:\\Users\\USER\\Downloads\\NOIACORE\\chat-zai-69fb72c0_1.html",
+          "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\chat-zai-69fb72c0_1",
+          "extraidos": 1,
+          "saltados": 0,
+          "kb_total": 165.0,
+          "ficheros": [
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\chat-zai-69fb72c0_1\\font-001.ttf",
+              "kb": 165.0,
+              "mime": "font/ttf"
+            }
+          ]
+        },
+        {
+          "origen": "C:\\Users\\USER\\Downloads\\NOIACORE\\chat-zai-69fb72c0_1_1.html",
+          "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\chat-zai-69fb72c0_1_1",
+          "extraidos": 1,
+          "saltados": 0,
+          "kb_total": 165.0,
+          "ficheros": [
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\chat-zai-69fb72c0_1_1\\font-001.ttf",
+              "kb": 165.0,
+              "mime": "font/ttf"
+            }
+          ]
+        },
+        {
+          "origen": "C:\\Users\\USER\\Downloads\\NOIACORE\\inicio_1.html",
+          "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\inicio_1",
+          "extraidos": 4,
+          "saltados": 0,
+          "kb_total": 235.1,
+          "ficheros": [
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\inicio_1\\image-001.png",
+              "kb": 114.4,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\inicio_1\\image-002.jpg",
+              "kb": 81.6,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\inicio_1\\image-003.jpg",
+              "kb": 14.9,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\inicio_1\\image-004.jpg",
+              "kb": 24.2,
+              "mime": "image/jpeg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "generado": "2026-09-15T22:41:45+00:00",
+      "html_origen": 6,
+      "assets_extraidos": 74,
+      "kb_total": 213441.9,
+      "resultados": [
+        {
+          "origen": "G:\\Mi unidad\\todo_mi_drive\\fff\\BELENTANI-WEB\\omega-core-_7_19_2026-9_02_10-PM_.html",
+          "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_",
+          "extraidos": 14,
+          "saltados": 0,
+          "kb_total": 38665.8,
+          "ficheros": [
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\font-001.woff2",
+              "kb": 14.1,
+              "mime": "font/woff2"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\font-002.woff2",
+              "kb": 30.7,
+              "mime": "font/woff2"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-003.png",
+              "kb": 650.7,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-004.jpg",
+              "kb": 2061.4,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-005.jpg",
+              "kb": 1726.6,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-006.jpg",
+              "kb": 5518.9,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-007.jpg",
+              "kb": 3333.2,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-008.png",
+              "kb": 66.2,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-009.png",
+              "kb": 10192.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-010.jpg",
+              "kb": 1931.9,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-011.jpg",
+              "kb": 465.7,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-012.jpg",
+              "kb": 3081.1,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-013.png",
+              "kb": 5493.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-014.jpg",
+              "kb": 4099.1,
+              "mime": "image/jpeg"
+            }
+          ]
+        },
+        {
+          "origen": "G:\\Mi unidad\\todo_mi_drive\\fff\\BELENTANI-WEB\\BELENTANI___JUDAS_ERA_-_OMEGA_CORE__7_19_2026_9_02_10_PM_.html",
+          "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_",
+          "extraidos": 14,
+          "saltados": 0,
+          "kb_total": 38665.8,
+          "ficheros": [
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\font-001.woff2",
+              "kb": 14.1,
+              "mime": "font/woff2"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\font-002.woff2",
+              "kb": 30.7,
+              "mime": "font/woff2"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-003.png",
+              "kb": 650.7,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-004.jpg",
+              "kb": 2061.4,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-005.jpg",
+              "kb": 1726.6,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-006.jpg",
+              "kb": 5518.9,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-007.jpg",
+              "kb": 3333.2,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-008.png",
+              "kb": 66.2,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-009.png",
+              "kb": 10192.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-010.jpg",
+              "kb": 1931.9,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-011.jpg",
+              "kb": 465.7,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-012.jpg",
+              "kb": 3081.1,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-013.png",
+              "kb": 5493.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-014.jpg",
+              "kb": 4099.1,
+              "mime": "image/jpeg"
+            }
+          ]
+        },
+        {
+          "origen": "G:\\Mi unidad\\todo_mi_drive\\fff\\BELENTANI-WEB\\BELENTANI___JUDAS_ERA_-_OMEGA_CORE__7_20_2026_3_42_11_AM_.html",
+          "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_",
+          "extraidos": 14,
+          "saltados": 0,
+          "kb_total": 38657.7,
+          "ficheros": [
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\font-001.woff2",
+              "kb": 14.1,
+              "mime": "font/woff2"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\font-002.woff2",
+              "kb": 30.7,
+              "mime": "font/woff2"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-003.png",
+              "kb": 650.7,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-004.jpg",
+              "kb": 2061.4,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-005.jpg",
+              "kb": 1726.6,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-006.jpg",
+              "kb": 5518.9,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-007.jpg",
+              "kb": 3333.2,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-008.png",
+              "kb": 58.1,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-009.png",
+              "kb": 10192.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-010.jpg",
+              "kb": 1931.9,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-011.jpg",
+              "kb": 465.7,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-012.jpg",
+              "kb": 3081.1,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-013.png",
+              "kb": 5493.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-014.jpg",
+              "kb": 4099.1,
+              "mime": "image/jpeg"
+            }
+          ]
+        },
+        {
+          "origen": "G:\\Mi unidad\\todo_mi_drive\\fff\\BELENTANI-WEB\\omega-core-_7_20_2026-3_42_11-AM_.html",
+          "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_20_2026-3_42_11-am_",
+          "extraidos": 14,
+          "saltados": 0,
+          "kb_total": 38657.7,
+          "ficheros": [
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_20_2026-3_42_11-am_\\font-001.woff2",
+              "kb": 14.1,
+              "mime": "font/woff2"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_20_2026-3_42_11-am_\\font-002.woff2",
+              "kb": 30.7,
+              "mime": "font/woff2"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_20_2026-3_42_11-am_\\image-003.png",
+              "kb": 650.7,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_20_2026-3_42_11-am_\\image-004.jpg",
+              "kb": 2061.4,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_20_2026-3_42_11-am_\\image-005.jpg",
+              "kb": 1726.6,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_20_2026-3_42_11-am_\\image-006.jpg",
+              "kb": 5518.9,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_20_2026-3_42_11-am_\\image-007.jpg",
+              "kb": 3333.2,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_20_2026-3_42_11-am_\\image-008.png",
+              "kb": 58.1,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_20_2026-3_42_11-am_\\image-009.png",
+              "kb": 10192.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_20_2026-3_42_11-am_\\image-010.jpg",
+              "kb": 1931.9,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_20_2026-3_42_11-am_\\image-011.jpg",
+              "kb": 465.7,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_20_2026-3_42_11-am_\\image-012.jpg",
+              "kb": 3081.1,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_20_2026-3_42_11-am_\\image-013.png",
+              "kb": 5493.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_20_2026-3_42_11-am_\\image-014.jpg",
+              "kb": 4099.1,
+              "mime": "image/jpeg"
+            }
+          ]
+        },
+        {
+          "origen": "G:\\Mi unidad\\todo_mi_drive\\fff\\BELENTANI-WEB\\omega-core-_7_23_2026-9_31_47-PM_.html",
+          "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_",
+          "extraidos": 12,
+          "saltados": 2,
+          "kb_total": 38612.4,
+          "ficheros": [
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-001.png",
+              "kb": 650.7,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-002.jpg",
+              "kb": 2061.4,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-003.jpg",
+              "kb": 1726.6,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-004.jpg",
+              "kb": 5518.9,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-005.jpg",
+              "kb": 3333.2,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-006.png",
+              "kb": 57.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-007.png",
+              "kb": 10192.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-008.jpg",
+              "kb": 1931.9,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-009.jpg",
+              "kb": 465.7,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-010.jpg",
+              "kb": 3081.1,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-011.png",
+              "kb": 5493.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_23_2026-9_31_47-pm_\\image-012.jpg",
+              "kb": 4099.1,
+              "mime": "image/jpeg"
+            }
+          ]
+        },
+        {
+          "origen": "G:\\Mi unidad\\todo_mi_drive\\fff\\BELENTANI-WEB\\BELENTANI___JUDAS_ERA_-_OMEGA_CORE__7_23_2026_9_31_47_PM_.html",
+          "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_23_2026_9_31_47_pm_",
+          "extraidos": 6,
+          "saltados": 8,
+          "kb_total": 20182.5,
+          "ficheros": [
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_23_2026_9_31_47_pm_\\image-001.png",
+              "kb": 650.7,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_23_2026_9_31_47_pm_\\image-002.jpg",
+              "kb": 2061.4,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_23_2026_9_31_47_pm_\\image-003.jpg",
+              "kb": 1726.6,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_23_2026_9_31_47_pm_\\image-004.png",
+              "kb": 57.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_23_2026_9_31_47_pm_\\image-005.png",
+              "kb": 10192.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_23_2026_9_31_47_pm_\\image-006.png",
+              "kb": 5493.6,
+              "mime": "image/png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "generado": "2026-09-15T22:58:17+00:00",
+      "html_origen": 1,
+      "assets_extraidos": 1,
+      "kb_total": 38.7,
+      "resultados": [
+        {
+          "origen": "C:\\Users\\USER\\Downloads\\NOIACORE\\Judas Experience ｜ BuildAI (7_26_2026 5：12：55 AM).html",
+          "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\judas-experience-buildai-7_26_2026-5-12-55-am",
+          "extraidos": 1,
+          "saltados": 6,
+          "kb_total": 38.7,
+          "ficheros": [
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\judas-experience-buildai-7_26_2026-5-12-55-am\\image-001.svg",
+              "kb": 38.7,
+              "mime": "image/svg+xml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "generado": "2026-09-15T23:27:04+00:00",
+      "html_origen": 3,
+      "assets_extraidos": 36,
+      "kb_total": 115854.9,
+      "resultados": [
+        {
+          "origen": "G:\\Mi unidad\\todo_mi_drive\\fff\\BELENTANI-WEB\\omega-core-_7_19_2026-9_02_10-PM_.html",
+          "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_",
+          "extraidos": 12,
+          "saltados": 0,
+          "kb_total": 38621.0,
+          "ficheros": [
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-001.png",
+              "kb": 650.7,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-002.jpg",
+              "kb": 2061.4,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-003.jpg",
+              "kb": 1726.6,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-004.jpg",
+              "kb": 5518.9,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-005.jpg",
+              "kb": 3333.2,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-006.png",
+              "kb": 66.2,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-007.png",
+              "kb": 10192.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-008.jpg",
+              "kb": 1931.9,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-009.jpg",
+              "kb": 465.7,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-010.jpg",
+              "kb": 3081.1,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-011.png",
+              "kb": 5493.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\omega-core-_7_19_2026-9_02_10-pm_\\image-012.jpg",
+              "kb": 4099.1,
+              "mime": "image/jpeg"
+            }
+          ]
+        },
+        {
+          "origen": "G:\\Mi unidad\\todo_mi_drive\\fff\\BELENTANI-WEB\\BELENTANI___JUDAS_ERA_-_OMEGA_CORE__7_19_2026_9_02_10_PM_.html",
+          "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_",
+          "extraidos": 12,
+          "saltados": 0,
+          "kb_total": 38621.0,
+          "ficheros": [
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-001.png",
+              "kb": 650.7,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-002.jpg",
+              "kb": 2061.4,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-003.jpg",
+              "kb": 1726.6,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-004.jpg",
+              "kb": 5518.9,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-005.jpg",
+              "kb": 3333.2,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-006.png",
+              "kb": 66.2,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-007.png",
+              "kb": 10192.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-008.jpg",
+              "kb": 1931.9,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-009.jpg",
+              "kb": 465.7,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-010.jpg",
+              "kb": 3081.1,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-011.png",
+              "kb": 5493.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_19_2026_9_02_10_pm_\\image-012.jpg",
+              "kb": 4099.1,
+              "mime": "image/jpeg"
+            }
+          ]
+        },
+        {
+          "origen": "G:\\Mi unidad\\todo_mi_drive\\fff\\BELENTANI-WEB\\BELENTANI___JUDAS_ERA_-_OMEGA_CORE__7_20_2026_3_42_11_AM_.html",
+          "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_",
+          "extraidos": 12,
+          "saltados": 0,
+          "kb_total": 38612.9,
+          "ficheros": [
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-001.png",
+              "kb": 650.7,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-002.jpg",
+              "kb": 2061.4,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-003.jpg",
+              "kb": 1726.6,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-004.jpg",
+              "kb": 5518.9,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-005.jpg",
+              "kb": 3333.2,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-006.png",
+              "kb": 58.1,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-007.png",
+              "kb": 10192.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-008.jpg",
+              "kb": 1931.9,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-009.jpg",
+              "kb": 465.7,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-010.jpg",
+              "kb": 3081.1,
+              "mime": "image/jpeg"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-011.png",
+              "kb": 5493.6,
+              "mime": "image/png"
+            },
+            {
+              "fichero": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\belentani___judas_era_-_omega_core__7_20_2026_3_42_11_am_\\image-012.jpg",
+              "kb": 4099.1,
+              "mime": "image/jpeg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

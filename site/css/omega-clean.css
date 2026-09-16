@@ -1,0 +1,68 @@
+/* OMEGA CLEAN — quita lo que no tiene sentido (aditivo, reversible).
+   1) Barra que arrastra al lado: topnav + telemetry + hbar fijos que empujan
+      el viewport en móvil → se vuelven estáticos, sin drag lateral.
+   2) Botón girando: agentFace / art-orbs flotantes con animación infinita →
+      quietos, sin respiración/rotación.
+   3) Albóndiga-planeta: glass-prism deforme → planeta real con anillos.
+   Todo conmutado por body.clean-on. Sin borrar nada. */
+body.clean-on .hero-orbit { display: none !important; }
+body.clean-on .topnav {
+  position: static !important;
+  overflow-x: auto !important;
+  justify-content: flex-start !important;
+}
+body.clean-on #omega-telemetry {
+  position: static !important;
+  overflow-x: auto !important;
+  white-space: nowrap !important;
+}
+body.clean-on .hbar, body.clean-on #waveC { position: static !important; margin: 0 auto !important; }
+body.clean-on #agentFace {
+  animation: none !important;
+  bottom: 24px !important;
+}
+body.clean-on #agentFace .af-core { animation: none !important; }
+body.clean-on .art-orbs { display: none !important; }
+body.clean-on .glass-prism { display: none !important; }
+body.clean-on .planet-real {
+  position: relative;
+  width: min(420px, 70vw);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  margin: 0 auto;
+  background:
+    radial-gradient(circle at 32% 28%, rgba(255,255,255,.35), transparent 32%),
+    radial-gradient(circle at 50% 55%, rgba(255,0,60,.55), rgba(120,0,25,.85) 55%, rgba(5,0,3,.95) 78%),
+    radial-gradient(circle at 50% 50%, rgba(255,0,60,.25), transparent 70%);
+  box-shadow: 0 0 60px rgba(255,0,60,.35), 0 0 160px rgba(255,0,60,.2), inset -30px -20px 80px rgba(0,0,0,.8);
+  overflow: visible;
+}
+body.clean-on .planet-real::before {
+  content: '';
+  position: absolute;
+  left: -18%;
+  right: -18%;
+  top: 50%;
+  height: 26%;
+  transform: translateY(-50%) rotate(-14deg);
+  border-radius: 50%;
+  border: 2px solid rgba(255,0,60,.55);
+  box-shadow: 0 0 24px rgba(255,0,60,.4);
+  pointer-events: none;
+}
+body.clean-on .planet-real::after {
+  content: '';
+  position: absolute;
+  left: -8%;
+  right: -8%;
+  top: 50%;
+  height: 12%;
+  transform: translateY(-50%) rotate(-14deg);
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,.25);
+  pointer-events: none;
+}
+body.clean-on { overflow-x: hidden !important; }
+@media (prefers-reduced-motion: reduce) {
+  body.clean-on * { animation: none !important; }
+}

@@ -121,7 +121,7 @@
 (function(){
   var orbs=document.querySelectorAll('.art-orb');
   if(!orbs.length)return;
-  var audioCtx=null,analyser=null,source=null,dataArray=null;
+  var audioCtx=null,analyser=null,source=null,dataArray=null,micStream=null;
   var listening=false;
 
   function initAudio(){
@@ -137,14 +137,25 @@
   function startMic(){
     if(listening)return;
     initAudio();
-    if(!audioCtx)return;
+    if(!audioCtx||!navigator.mediaDevices||!navigator.mediaDevices.getUserMedia)return;
     navigator.mediaDevices.getUserMedia({audio:true}).then(function(stream){
+      micStream=stream;
       source=audioCtx.createMediaStreamSource(stream);
       source.connect(analyser);
       listening=true;
       visualize();
     }).catch(function(){});
   }
+
+  function stopMic(){
+    listening=false;
+    if(micStream){micStream.getTracks().forEach(function(t){t.stop()});micStream=null}
+    if(source){try{source.disconnect()}catch(e){}source=null}
+  }
+
+  // Release the microphone whenever the tab is hidden (privacy + battery)
+  document.addEventListener('visibilitychange',function(){if(document.hidden)stopMic()});
+  window.addEventListener('pagehide',stopMic);
 
   function visualize(){
     if(!listening)return;
@@ -164,8 +175,19 @@
     requestAnimationFrame(visualize);
   }
 
-  // Start on first user interaction
-  document.addEventListener('click',function(){startMic()},{once:true});
-  // Also try auto-start
-  setTimeout(startMic,5000);
+  // Microphone is strictly OPT-IN: a visible control toggles it, and the
+  // stream is released whenever the tab is hidden (see visibilitychange).
+  (function micButton(){
+    var b=document.createElement('button');
+    b.id='micToggle';b.type='button';
+    b.setAttribute('aria-pressed','false');
+    b.setAttribute('aria-label','Activar o desactivar el micrófono para la visualización de audio');
+    b.textContent='MIC';
+    b.style.cssText='position:fixed;left:14px;bottom:14px;z-index:9999;font-family:var(--fm);font-size:10px;letter-spacing:2px;color:#fff;background:rgba(12,2,6,.82);border:1px solid var(--blood);padding:8px 12px;cursor:pointer;backdrop-filter:blur(10px)';
+    b.addEventListener('click',function(){
+      if(listening){stopMic();b.setAttribute('aria-pressed','false');b.style.color='#fff'}
+      else{startMic();b.setAttribute('aria-pressed','true');b.style.color='var(--blood)'}
+    });
+    document.body.appendChild(b);
+  })();
 })();

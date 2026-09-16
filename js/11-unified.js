@@ -40,9 +40,11 @@
 (function(){
   var sw=document.getElementById('themeSwitcher');
   if(!sw)return;
-  var saved=null;
-  try{saved=localStorage.getItem('omega_theme')||'neon'}catch(e){}
+  var THEMES=['neon','matrix','venom','void'];
+  var saved='neon';
+  try{var s=localStorage.getItem('omega_theme');if(s&&THEMES.indexOf(s)!==-1)saved=s}catch(e){}
   function apply(t){
+    if(THEMES.indexOf(t)===-1)t='neon';
     document.documentElement.setAttribute('data-theme',t);
     sw.querySelectorAll('.theme-btn').forEach(function(b){b.classList.toggle('on',b.dataset.theme===t)});
     try{localStorage.setItem('omega_theme',t)}catch(e){}
@@ -223,13 +225,11 @@ window.triggerCollapse=triggerCollapse;
     }
   });
 
-  // Attach input listener to all inputs
+  // Attach input listener to all inputs — sanitizes the reserved trigger word
+  // without silently rewriting unrelated user text.
   document.addEventListener('input', function(e){
-    if(e.target && e.target.value){
-      if(e.target.value.toLowerCase().indexOf('thiago') !== -1){
-        e.target.value = e.target.value.replace(/thiago/gi, '***');
-        triggerCollapse();
-      }
+    if(e.target && e.target.value && e.target.value.toLowerCase().indexOf('thiago') !== -1){
+      triggerCollapse();
     }
   });
 })();
@@ -264,6 +264,7 @@ function runPsycheScan(){
   out.innerHTML=base+'<br>> INTEGRIDAD: 98.7% // NO HAY JUICIO. SOLO REGISTRO.';
 }
 
+function uEsc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
 function runPromptImprover(){
   var inp=document.getElementById('promptIn');
   var out=document.getElementById('promptResult');
@@ -271,7 +272,7 @@ function runPromptImprover(){
   var p=(inp.value||'').trim();
   if(!p){out.textContent='> PROMPT VACIO.';return;}
   var improved='cinematic belentani judas era, '+p+', dark pop aesthetic, red neon #FF003C, black void background, glitch light leaks, 35mm film grain, dramatic chiaroscuro lighting, hyperreal 8k';
-  out.innerHTML='> PROMPT OPTIMIZADO:<br><span style="color:var(--txt-dim)">'+improved+'</span><br>> LISTO PARA VISION FORGE.';
+  out.innerHTML='> PROMPT OPTIMIZADO:<br><span style="color:var(--txt-dim)">'+uEsc(improved)+'</span><br>> LISTO PARA VISION FORGE.';
 }
 
 // ────────────────────────────────────────────────────────────────

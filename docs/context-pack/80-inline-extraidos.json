@@ -1,0 +1,28 @@
+{
+  "generado": "2026-09-15T22:52:55+00:00",
+  "destino": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports",
+  "total": 3,
+  "imagenes": [
+    {
+      "archivo": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\judas-experience-buildai-7-26-2026-5-12-55-a\\judas-experience-buildai-7-26-2026-5-12-55-a-001-adb46027.png",
+      "kb": 146.4,
+      "mime": "image/png",
+      "sha1": "adb46027cfd68435bd304c300299b11ea939ec3f",
+      "origen": "C:\\Users\\USER\\Downloads\\NOIACORE\\Judas Experience ｜ BuildAI (7_26_2026 5：12：55 AM).html"
+    },
+    {
+      "archivo": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\judas-experience-buildai-7-26-2026-5-12-55-a\\judas-experience-buildai-7-26-2026-5-12-55-a-034-40922c01.svg",
+      "kb": 38.7,
+      "mime": "image/svg+xml",
+      "sha1": "40922c0167d147f92a17257f18caa59ed90c5926",
+      "origen": "C:\\Users\\USER\\Downloads\\NOIACORE\\Judas Experience ｜ BuildAI (7_26_2026 5：12：55 AM).html"
+    },
+    {
+      "archivo": "C:\\Users\\USER\\repos\\belentani_Omega\\assets\\imports\\judas-experience-buildai-7-26-2026-5-12-55-a\\judas-experience-buildai-7-26-2026-5-12-55-a-168-f1ac763c.png",
+      "kb": 26.0,
+      "mime": "image/png",
+      "sha1": "f1ac763c81394652321b52d35dc43a5a86e3d3c5",
+      "origen": "C:\\Users\\USER\\Downloads\\NOIACORE\\Judas Experience ｜ BuildAI (7_26_2026 5：12：55 AM).html"
+    }
+  ]
+}

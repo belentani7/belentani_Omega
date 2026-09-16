@@ -10,7 +10,7 @@ if(window.OMEGA_REDUCED_MOTION){document.getElementById('boot').style.display='n
 // CURSOR
 var cDot=document.querySelector('.cur-dot'),cRing=document.querySelector('.cur-ring'),cBox=document.querySelector('.cur-box');
 var cmx=0,cmy=0,cox=0,coy=0;
-if(!window.OMEGA_REDUCED_MOTION){document.addEventListener('mousemove',function(e){
+if(!window.OMEGA_REDUCED_MOTION&&cDot&&cRing&&cBox){document.body.classList.add('cur-on');document.addEventListener('mousemove',function(e){
   cmx=e.clientX;cmy=e.clientY;
   cDot.style.transform='translate('+cmx+'px,'+cmy+'px)';
   var t=e.target.closest('a,button,.tcard,.ndot,input,textarea,.stab,.mcard,.cta,.trow,.ftab,.gg');

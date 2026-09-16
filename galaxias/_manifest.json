@@ -1,0 +1,380 @@
+{
+  "generado": "2026-09-15T22:25:06+00:00",
+  "firmas": [
+    "pedro",
+    "marcos",
+    "santos",
+    "belentani",
+    "human"
+  ],
+  "estaciones": [
+    "entre",
+    "deuda",
+    "robo",
+    "canto",
+    "victoria",
+    "mentira",
+    "umbral",
+    "senal",
+    "portal",
+    "constelacion"
+  ],
+  "idiomas": [
+    "pt",
+    "es",
+    "en",
+    "ca"
+  ],
+  "paginas": [
+    {
+      "numero": 1,
+      "fichero": "galaxia-01.html",
+      "firma": "pedro",
+      "estacion": "entre",
+      "sentido": "neon"
+    },
+    {
+      "numero": 2,
+      "fichero": "galaxia-02.html",
+      "firma": "pedro",
+      "estacion": "deuda",
+      "sentido": "matrix"
+    },
+    {
+      "numero": 3,
+      "fichero": "galaxia-03.html",
+      "firma": "pedro",
+      "estacion": "robo",
+      "sentido": "venom"
+    },
+    {
+      "numero": 4,
+      "fichero": "galaxia-04.html",
+      "firma": "pedro",
+      "estacion": "canto",
+      "sentido": "void"
+    },
+    {
+      "numero": 5,
+      "fichero": "galaxia-05.html",
+      "firma": "pedro",
+      "estacion": "victoria",
+      "sentido": "ascended"
+    },
+    {
+      "numero": 6,
+      "fichero": "galaxia-06.html",
+      "firma": "pedro",
+      "estacion": "mentira",
+      "sentido": "ascended"
+    },
+    {
+      "numero": 7,
+      "fichero": "galaxia-07.html",
+      "firma": "pedro",
+      "estacion": "umbral",
+      "sentido": "void"
+    },
+    {
+      "numero": 8,
+      "fichero": "galaxia-08.html",
+      "firma": "pedro",
+      "estacion": "senal",
+      "sentido": "venom"
+    },
+    {
+      "numero": 9,
+      "fichero": "galaxia-09.html",
+      "firma": "pedro",
+      "estacion": "portal",
+      "sentido": "matrix"
+    },
+    {
+      "numero": 10,
+      "fichero": "galaxia-10.html",
+      "firma": "pedro",
+      "estacion": "constelacion",
+      "sentido": "neon"
+    },
+    {
+      "numero": 11,
+      "fichero": "galaxia-11.html",
+      "firma": "marcos",
+      "estacion": "entre",
+      "sentido": "neon"
+    },
+    {
+      "numero": 12,
+      "fichero": "galaxia-12.html",
+      "firma": "marcos",
+      "estacion": "deuda",
+      "sentido": "matrix"
+    },
+    {
+      "numero": 13,
+      "fichero": "galaxia-13.html",
+      "firma": "marcos",
+      "estacion": "robo",
+      "sentido": "venom"
+    },
+    {
+      "numero": 14,
+      "fichero": "galaxia-14.html",
+      "firma": "marcos",
+      "estacion": "canto",
+      "sentido": "void"
+    },
+    {
+      "numero": 15,
+      "fichero": "galaxia-15.html",
+      "firma": "marcos",
+      "estacion": "victoria",
+      "sentido": "ascended"
+    },
+    {
+      "numero": 16,
+      "fichero": "galaxia-16.html",
+      "firma": "marcos",
+      "estacion": "mentira",
+      "sentido": "ascended"
+    },
+    {
+      "numero": 17,
+      "fichero": "galaxia-17.html",
+      "firma": "marcos",
+      "estacion": "umbral",
+      "sentido": "void"
+    },
+    {
+      "numero": 18,
+      "fichero": "galaxia-18.html",
+      "firma": "marcos",
+      "estacion": "senal",
+      "sentido": "venom"
+    },
+    {
+      "numero": 19,
+      "fichero": "galaxia-19.html",
+      "firma": "marcos",
+      "estacion": "portal",
+      "sentido": "matrix"
+    },
+    {
+      "numero": 20,
+      "fichero": "galaxia-20.html",
+      "firma": "marcos",
+      "estacion": "constelacion",
+      "sentido": "neon"
+    },
+    {
+      "numero": 21,
+      "fichero": "galaxia-21.html",
+      "firma": "santos",
+      "estacion": "entre",
+      "sentido": "neon"
+    },
+    {
+      "numero": 22,
+      "fichero": "galaxia-22.html",
+      "firma": "santos",
+      "estacion": "deuda",
+      "sentido": "matrix"
+    },
+    {
+      "numero": 23,
+      "fichero": "galaxia-23.html",
+      "firma": "santos",
+      "estacion": "robo",
+      "sentido": "venom"
+    },
+    {
+      "numero": 24,
+      "fichero": "galaxia-24.html",
+      "firma": "santos",
+      "estacion": "canto",
+      "sentido": "void"
+    },
+    {
+      "numero": 25,
+      "fichero": "galaxia-25.html",
+      "firma": "santos",
+      "estacion": "victoria",
+      "sentido": "ascended"
+    },
+    {
+      "numero": 26,
+      "fichero": "galaxia-26.html",
+      "firma": "santos",
+      "estacion": "mentira",
+      "sentido": "ascended"
+    },
+    {
+      "numero": 27,
+      "fichero": "galaxia-27.html",
+      "firma": "santos",
+      "estacion": "umbral",
+      "sentido": "void"
+    },
+    {
+      "numero": 28,
+      "fichero": "galaxia-28.html",
+      "firma": "santos",
+      "estacion": "senal",
+      "sentido": "venom"
+    },
+    {
+      "numero": 29,
+      "fichero": "galaxia-29.html",
+      "firma": "santos",
+      "estacion": "portal",
+      "sentido": "matrix"
+    },
+    {
+      "numero": 30,
+      "fichero": "galaxia-30.html",
+      "firma": "santos",
+      "estacion": "constelacion",
+      "sentido": "neon"
+    },
+    {
+      "numero": 31,
+      "fichero": "galaxia-31.html",
+      "firma": "belentani",
+      "estacion": "entre",
+      "sentido": "neon"
+    },
+    {
+      "numero": 32,
+      "fichero": "galaxia-32.html",
+      "firma": "belentani",
+      "estacion": "deuda",
+      "sentido": "matrix"
+    },
+    {
+      "numero": 33,
+      "fichero": "galaxia-33.html",
+      "firma": "belentani",
+      "estacion": "robo",
+      "sentido": "venom"
+    },
+    {
+      "numero": 34,
+      "fichero": "galaxia-34.html",
+      "firma": "belentani",
+      "estacion": "canto",
+      "sentido": "void"
+    },
+    {
+      "numero": 35,
+      "fichero": "galaxia-35.html",
+      "firma": "belentani",
+      "estacion": "victoria",
+      "sentido": "ascended"
+    },
+    {
+      "numero": 36,
+      "fichero": "galaxia-36.html",
+      "firma": "belentani",
+      "estacion": "mentira",
+      "sentido": "ascended"
+    },
+    {
+      "numero": 37,
+      "fichero": "galaxia-37.html",
+      "firma": "belentani",
+      "estacion": "umbral",
+      "sentido": "void"
+    },
+    {
+      "numero": 38,
+      "fichero": "galaxia-38.html",
+      "firma": "belentani",
+      "estacion": "senal",
+      "sentido": "venom"
+    },
+    {
+      "numero": 39,
+      "fichero": "galaxia-39.html",
+      "firma": "belentani",
+      "estacion": "portal",
+      "sentido": "matrix"
+    },
+    {
+      "numero": 40,
+      "fichero": "galaxia-40.html",
+      "firma": "belentani",
+      "estacion": "constelacion",
+      "sentido": "neon"
+    },
+    {
+      "numero": 41,
+      "fichero": "galaxia-41.html",
+      "firma": "human",
+      "estacion": "entre",
+      "sentido": "neon"
+    },
+    {
+      "numero": 42,
+      "fichero": "galaxia-42.html",
+      "firma": "human",
+      "estacion": "deuda",
+      "sentido": "matrix"
+    },
+    {
+      "numero": 43,
+      "fichero": "galaxia-43.html",
+      "firma": "human",
+      "estacion": "robo",
+      "sentido": "venom"
+    },
+    {
+      "numero": 44,
+      "fichero": "galaxia-44.html",
+      "firma": "human",
+      "estacion": "canto",
+      "sentido": "void"
+    },
+    {
+      "numero": 45,
+      "fichero": "galaxia-45.html",
+      "firma": "human",
+      "estacion": "victoria",
+      "sentido": "ascended"
+    },
+    {
+      "numero": 46,
+      "fichero": "galaxia-46.html",
+      "firma": "human",
+      "estacion": "mentira",
+      "sentido": "ascended"
+    },
+    {
+      "numero": 47,
+      "fichero": "galaxia-47.html",
+      "firma": "human",
+      "estacion": "umbral",
+      "sentido": "void"
+    },
+    {
+      "numero": 48,
+      "fichero": "galaxia-48.html",
+      "firma": "human",
+      "estacion": "senal",
+      "sentido": "venom"
+    },
+    {
+      "numero": 49,
+      "fichero": "galaxia-49.html",
+      "firma": "human",
+      "estacion": "portal",
+      "sentido": "matrix"
+    },
+    {
+      "numero": 50,
+      "fichero": "galaxia-50.html",
+      "firma": "human",
+      "estacion": "constelacion",
+      "sentido": "neon"
+    }
+  ]
+}
