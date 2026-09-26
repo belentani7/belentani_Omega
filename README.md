@@ -1,3 +1,5 @@
+[![Open in VS Code](https://img.shields.io/badge/Open_in-VS_Code-007ACC?logo=visualstudiocode&logoColor=white)](https://github.dev/belentani7/belentani_Omega)
+
 # BELENTANI OMEGA — JUDAS ERA · ARCHITECTURAL EXPERIENCE SYSTEM
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
