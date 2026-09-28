@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GALAXIA 32 · LA DEUDA — NÚCLEO | BELENTANI</title>
+<meta name="description" content="NÚCLEO · LA DEUDA. La deuda se volvió impagable: devoción sin devolución.">
+<meta name="theme-color" content="#FF003C">
+<meta name="color-scheme" content="dark">
+<link rel="canonical" href="https://belentani.es/galaxias/galaxia-32.html">
+<link rel="alternate" hreflang="pt" href="galaxia-32.html?lang=pt">
+<link rel="alternate" hreflang="es" href="galaxia-32.html?lang=es">
+<link rel="alternate" hreflang="en" href="galaxia-32.html?lang=en">
+<link rel="alternate" hreflang="ca" href="galaxia-32.html?lang=ca">
+<link rel="alternate" hreflang="x-default" href="galaxia-32.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;600;700&family=JetBrains+Mono:wght@400;700&family=Orbitron:wght@600;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="core/galaxia.css">
+<style>:root{--sig:#FF003C;--beat:2.8s}
+body{--sig:#FF003C}
+@keyframes neonpulse{0%,100%{opacity:.86;text-shadow:0 0 18px #FF003C,0 0 60px rgba(255,0,60,.4)}
+  50%{opacity:1;text-shadow:0 0 34px #FF003C,0 0 110px rgba(255,0,60,.65)}}
+.title{animation:neonpulse 3.8s ease-in-out infinite}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+</style>
+</head>
+<body class="sense-matrix">
+<a class="skip" href="#nucleo" data-i18n="skip">Ir al núcleo</a>
+<canvas id="stars" aria-hidden="true"></canvas>
+
+<header class="topnav">
+  <a class="brand" href="../index.html" aria-label="BELENTANI — inicio">
+    <span class="brand-eye" aria-hidden="true"></span>
+    <span><b>BELENTANI</b><small>GALAXIA 32 / 50 · LA DEUDA</small></span>
+  </a>
+  <span class="sig-badge" style="--sig:#FF003C">BELENTANI.SIG · INTEGRACIÓN</span>
+  <nav aria-label="Las cinco firmas"><ul class="ndots">
+      <li><a class="nstar" href="galaxia-02.html" style="--sig:#FFD700" aria-current="false" title="LA ROCA — permanencia"><span class="vh">LA ROCA</span></a></li>
+      <li><a class="nstar" href="galaxia-12.html" style="--sig:#00FFFF" aria-current="false" title="EL CRONISTA — memoria"><span class="vh">EL CRONISTA</span></a></li>
+      <li><a class="nstar" href="galaxia-22.html" style="--sig:#B026FF" aria-current="false" title="LA ANTENA — canal"><span class="vh">LA ANTENA</span></a></li>
+      <li><a class="nstar" href="galaxia-32.html" style="--sig:#FF003C" aria-current="true" title="NÚCLEO — integración"><span class="vh">NÚCLEO</span></a></li>
+      <li><a class="nstar" href="galaxia-42.html" style="--sig:#F5F5F5" aria-current="false" title="INTERFAZ — puente tangible"><span class="vh">INTERFAZ</span></a></li>
+  </ul></nav>
+</header>
+
+<main class="stage" id="nucleo">
+  <div class="eye-wrap">
+    <div class="ring ring-b" aria-hidden="true"></div>
+    <div class="ring" aria-hidden="true"></div>
+    <div class="orbit" id="orbit" aria-hidden="true"></div>
+    <div class="eye" role="img" aria-label="LA DEUDA — Ojo de Judas"><div class="skin" aria-hidden="true"></div></div>
+  </div>
+  <section class="mirror" aria-labelledby="t">
+    <p class="kicker">GALAXIA 32 / 50 · NÚCLEO · ESTACIÓN 2 / 10</p>
+    <h1 class="title" id="t">LA DEUDA</h1>
+    <p class="espejo" id="espejo">La deuda se volvió impagable: devoción sin devolución.</p>
+    <p class="firma"><b>BELENTANI.SIG</b> [NÚCLEO] · integración<br>LA TRAICIÓN ES EL INPUT. LA VOZ ES EL OUTPUT.</p>
+    <div class="progress" role="img" aria-label="Progreso del recorrido">
+      <i></i>
+    </div>
+  </section>
+</main>
+
+<footer class="hbar">
+  <nav class="waveC" aria-label="El Canto">
+    <a class="hn" href="galaxia-31.html" data-i18n="prev">ANTERIOR</a>
+    <a class="hn core" href="index.html" data-i18n="core">NÚCLEO</a>
+    <a class="hn" href="galaxia-33.html" data-i18n="next">SIGUIENTE</a>
+    <svg class="wave" viewBox="0 0 200 26" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 13 Q12 0 25 13 T50 13 T75 13 T100 13 T125 13 T150 13 T175 13 T200 13"/>
+    </svg>
+    <span class="sense">
+      <label for="sense" data-i18n="sense">SENTIDO</label>
+      <input id="sense" type="range" min="0" max="4" step="1" value="1">
+      <output id="sense-out" for="sense">MATRIX</output>
+    </span>
+  </nav>
+</footer>
+
+<script src="core/galaxia.js"></script>
+<script>
+mountGalaxia({
+  id:"32", firma:"BELENTANI.SIG", estacion:1,
+  beat:2.8,
+  prev:"galaxia-31.html",
+  next:"galaxia-33.html",
+  espejo:{
+    es:'La deuda se volvió impagable: devoción sin devolución.',
+    pt:'A dívida tornou-se impagável: devoção sem retorno.',
+    en:'The debt became unpayable: devotion given without return.',
+    ca:'El deute es va tornar impagable: devoció sense retorn.'
+  },
+  ui:{
+    pt:{skip:"Ir para o núcleo",prev:"ANTERIOR",core:"NÚCLEO",next:"SEGUINTE",sense:"SENTIDO"},
+    es:{skip:"Ir al núcleo",prev:"ANTERIOR",core:"NÚCLEO",next:"SIGUIENTE",sense:"SENTIDO"},
+    en:{skip:"Skip to the core",prev:"PREVIOUS",core:"CORE",next:"NEXT",sense:"SENSE"},
+    ca:{skip:"Ves al nucli",prev:"ANTERIOR",core:"NUCLI",next:"SEGÜENT",sense:"SENTIT"}
+  },
+  estaciones:[['entre', 'EL ENTRE'], ['deuda', 'LA DEUDA'], ['robo', 'EL ROBO'], ['canto', 'EL CANTO'], ['victoria', 'LA VICTORIA AMARGA'], ['mentira', 'LA MENTIRA COMPARTIDA'], ['umbral', 'EL UMBRAL'], ['senal', 'LA SEÑAL'], ['portal', 'EL PORTAL'], ['constelacion', 'LA CONSTELACIÓN']]
+});
+</script>
+</body>
+</html>
