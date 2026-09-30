@@ -1000,7 +1000,23 @@
 <script defer src="site/js/omega-supreme.js"></script>
 <script defer src="site/js/features/lore-panel.js"></script>
 <script defer src="site/js/features/saas-console.js"></script>
+<script defer src="js/belentani-universe.js"></script>
 <script defer src="js/sw-register.js"></script>
+<!-- Universo animado: capa de fondo del hero. Motor propio (js/belentani-universe.js). -->
+<script>
+window.addEventListener("load", function () {
+  try {
+    var destino = document.getElementById("home") || document.getElementById("main-content");
+    if (!destino || !window.BelentaniUniverse) return;
+    var capa = document.createElement("div");
+    capa.id = "universo-fondo";
+    capa.setAttribute("aria-hidden", "true");
+    capa.style.cssText = "position:absolute;inset:0;z-index:0;pointer-events:none;opacity:0.55;";
+    destino.insertBefore(capa, destino.firstChild);
+    window.__universo = BelentaniUniverse.attach(capa, { mode: "galaxia" });
+  } catch (e) { console.warn("Universo no disponible:", e); }
+});
+</script>
 </body>
 
 </html>
