@@ -1,0 +1,103 @@
+{
+  "version": "1.0",
+  "generado": "2026-09-30",
+  "descripcion": "Mapa del universo artistico Belentani. Nodo central que conecta todas las webs.",
+  "canonico": {
+    "nombre": "belentani.es",
+    "repo": "belentani_Omega",
+    "url": "https://belentani.es",
+    "papel": "Sitio oficial del artista"
+  },
+  "nodos": [
+    {
+      "id": "oficial",
+      "nombre": "Belentani Omega",
+      "repo": "belentani_Omega",
+      "url": "https://belentani.es",
+      "papel": "Sitio oficial. Punto de entrada del universo.",
+      "tipo": "canonico"
+    },
+    {
+      "id": "archivo",
+      "nombre": "BELENTANI / ARCHIVO VIVO",
+      "repo": "belentani-artista-unified",
+      "url": "https://belentani7.github.io/belentani-artista-unified/",
+      "papel": "Archivo vivo de la obra. Piezas y proceso.",
+      "tipo": "archivo"
+    },
+    {
+      "id": "judas-experience",
+      "nombre": "The Judas Experience",
+      "repo": "belentani-judas-experience",
+      "url": "https://belentani7.github.io/belentani-judas-experience/",
+      "papel": "Experiencia interactiva. La obra central.",
+      "tipo": "obra"
+    },
+    {
+      "id": "judas-era",
+      "nombre": "Judas Era — Omega Core",
+      "repo": "belentani-judas-era-omega",
+      "url": "https://belentani7.github.io/belentani-judas-era-omega/",
+      "papel": "Version Judas Era del organismo.",
+      "tipo": "obra"
+    },
+    {
+      "id": "judas-core",
+      "nombre": "BELENTANI_OS // JUDAS-CORE",
+      "repo": "belentani-judas-web",
+      "url": "https://belentani7.github.io/belentani-judas-web/",
+      "papel": "Creative OS web. El sistema detras de la obra.",
+      "tipo": "sistema"
+    },
+    {
+      "id": "omega-portal",
+      "nombre": "Omega Immersive Portal",
+      "repo": "belentani-omega-immersive-portal",
+      "url": "https://belentani-omega-immersive-portal.vercel.app",
+      "papel": "Portal inmersivo 3D.",
+      "tipo": "experiencia"
+    },
+    {
+      "id": "showcase",
+      "nombre": "Galeria de Versiones",
+      "repo": "belentani-omega-showcase",
+      "url": "https://belentani7.github.io/belentani-omega-showcase/",
+      "papel": "Galeria navegable de todas las versiones.",
+      "tipo": "archivo"
+    },
+    {
+      "id": "neon",
+      "nombre": "Belentani — Judas Era",
+      "repo": "belentani-es-neon",
+      "url": "https://belentani7.github.io/belentani-es-neon/",
+      "papel": "Portfolio visual estatico.",
+      "tipo": "portfolio"
+    },
+    {
+      "id": "noiacore",
+      "nombre": "NOIACORE LAB",
+      "repo": "Belentani",
+      "url": "https://belentani.vercel.app",
+      "papel": "Laboratorio: catalogo, agente, automatizacion.",
+      "tipo": "laboratorio"
+    },
+    {
+      "id": "perfil",
+      "nombre": "Belentani + NOIACORE",
+      "repo": "belentani7",
+      "url": "https://belentani7.github.io/belentani7/",
+      "papel": "Perfil publico y puerta al codigo.",
+      "tipo": "perfil"
+    }
+  ],
+  "estetica": {
+    "negro": "#000000",
+    "rojo_neon": "#ff073a",
+    "dorado_zion": "#d4af37",
+    "cyan": "#4de8e0",
+    "tipografias": ["Orbitron", "Share Tech Mono"],
+    "motivo": "CRT scanlines, vignette, starfield",
+    "frecuencia": "432 Hz"
+  },
+  "regla": "Todas las webs del universo llevan este mapa. Una obra, muchas puertas."
+}
